@@ -21,12 +21,12 @@ description: >- # dont remove this line. this will ignore all new lines until th
   
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: /assets/profile/SudarsanSrinivasan.jpg
+profile_image: assets/images/profile-image/SudarsanSrinivasan.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: /assets/pdf/SudarsanSrinivasan_Resume.pdf
+resume-url: assets/resume/SudarsanSrinivasan_Resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
