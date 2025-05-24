@@ -7,26 +7,26 @@
 
 # Main Page Setup
 
-title: Sudarsan's Portfolio # This is what shows up in the tab of the browser
+title: Sudarsan Srinivasan Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Mechanical Design & Mechatronics Engineer
+headline: Mechanical/Product Design Engineer with cross-disciplinary strength in robotics, automation, and mechatronics.
+          Passionate about designing future-ready systems.
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Mechanical Engineering MS student at UW, specializing in mechanical design, mechatronics, and robotics. 
-  Passionate about designing innovative, cross-disciplinary solutions.
+  
   
   
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/PXL.jpg
+profile_image: /assets/profile/SudarsanSrinivasan.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: ./assets/images/resume/Resume.pdf
+resume-url: /assets/pdf/SudarsanSrinivasan_Resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -46,29 +46,45 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Mechanical Design
+  - category: CAD & Mechanical Design
     tools:
-      - Siemens NX
       - SolidWorks
+      - Siemens NX
       - CATIA V5
-      - GD&T
-  - category: Simulation & Analysis
+      - 2D Drawings & GD&T
+      - DFM/DFA
+      - Tolerance Stack-Up
+      - Injection-Molded Plastics
+      - Sheet Metal
+      - Castings
+
+  - category: Simulation & Prototyping
     tools:
       - ANSYS
-      - HyperWorks
-      - FEA
+      - HyperView
       - MATLAB
-  - category: Controls & Robotics
+      - FEA
+      - Hands-on Prototyping
+      - Fabrication & Testing
+      - Part Validation
+
+  - category: Coding & Control Systems
     tools:
-      - Simulink
-      - ROS
-      - C++
       - Python
-  - category: Other Tools
+      - MATLAB
+      - C++
+      - Simulink
+      - Mechatronics
+      - Sensors & Wire Harness
+      - System Integration (Mechanical + Electrical)
+
+  - category: Collaboration & Process
     tools:
-      - Teamcenter
-      - PLC Programming
-      - Tableau
+      - Cross-Functional Teamwork
+      - Supplier Communication
+      - PLM Tools & BOM Management
+      - Change Management
+      - VAVE / Cost-Reduction Projects
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
