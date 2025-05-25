@@ -8,7 +8,7 @@ skills:
 - CAD Modeling
 - Tolerance Analysis
 - Product Validation
-main-image: assets/images/bajaj.jpg
+main-image: /bajaj.jpg
 ---
 
 ## Summary

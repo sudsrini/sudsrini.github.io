@@ -9,12 +9,12 @@ skills:
 - Mechanical Design
 - MATLAB & Simulink
 - Control Systems
-main-image: assets/images/uw-barc.jpg
+main-image: uw-barc.jpg
 ---
 
 ## Summary
 
-As part of the UW BARC (Bio-inspired Agile Robotics Collaboration) research group, I led the mechanical and control system design for an autonomous cleaning bot.  
+As part of the UW BARC (Boeing Advanced Research Collaboration) research group, I led the mechanical and control system design for an autonomous cleaning bot.  
 
 The system combined:
 - A rotating brush + squeegee mechanism for effective debris removal  

@@ -10,7 +10,7 @@ skills:
 - FEA & Simulation
 - Root Cause Analysis
 - Supplier Collaboration
-main-image: assets/images/bajaj.jpg
+main-image: /bajaj.jpg
 ---
 
 ## Summary

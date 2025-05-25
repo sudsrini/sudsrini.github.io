@@ -8,7 +8,7 @@ skills:
 - Process Optimization
 - Time Studies
 - Quality Control
-main-image: assets/images/ashok.jpg
+main-image: /ashok.jpg
 ---
 
 ## Summary
