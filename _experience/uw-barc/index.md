@@ -1,3 +1,4 @@
+order: 1
 ---
 layout: post
 title: UW BARC — Autonomous Cleaning Bot Project
