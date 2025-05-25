@@ -3,11 +3,13 @@ order: 3
 layout: post
 title: Ashok Leyland
 description: Manufacturing Engineering Intern (May 2016 – Jul 2016) — Focused on assembly line process optimization and quality improvements.
+
 skills:
-- Manufacturing Processes
-- Process Optimization
-- Time Studies
-- Quality Control
+    - Manufacturing Processes
+    - Process Optimization
+    - Time Studies
+    - Quality Control
+
 main-image: /ashok.jpg
 ---
 

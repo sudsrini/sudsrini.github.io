@@ -3,13 +3,15 @@ order: 1
 layout: post
 title: UW BARC — Autonomous Cleaning Bot Project
 description: Graduate Research Project (Jan 2025 – Present) — Developing an automated cleaning robot integrating mechanical design, robotics, and control systems.
+
 skills:
-- Robotics
-- Mechatronics
-- Mechanical Design
-- MATLAB & Simulink
-- Control Systems
-main-image: uw-barc.jpg
+    - Robotics
+    - Mechatronics
+    - Mechanical Design
+    - MATLAB & Simulink
+    - Control Systems
+
+main-image: /uw-barc.jpg
 ---
 
 ## Summary
@@ -30,4 +32,4 @@ I applied principles of mechatronics and robotics to ensure safe, efficient oper
 - Collaborated with a cross-disciplinary team, blending mechanical, electrical, and software components
 
 ## Images
-{% include image-gallery.html images="experience-uw-barc.jpg" height="400" %}
+{% include image-gallery.html images="uw-barc.jpg" height="400" %}
