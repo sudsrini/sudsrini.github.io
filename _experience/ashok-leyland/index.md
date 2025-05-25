@@ -11,4 +11,5 @@ main-image: /experience-ashok.jpg
 
 ## Summary
 
-Supported process improvement initiatives in vehicle assembly lines, focusing on improving workflow efficiency, conducting time studies, and assisting with quality checks to ensure production standards were met.
+Worked on assembly line process optimization, improving workflow efficiency and supporting time studies.  
+Assisted in implementing quality checks to ensure adherence to production standards.

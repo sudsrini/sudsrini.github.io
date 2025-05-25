@@ -11,4 +11,5 @@ main-image: /experience-rane.jpg
 
 ## Summary
 
-Worked on the design and validation of steering system components, contributing to CAD modeling, tolerance stack-up analysis, and part optimization efforts for enhanced manufacturability and performance.
+Supported design and validation of steering system components.  
+Performed CAD modeling, tolerance stack-up analysis, and contributed to part optimization for manufacturability and performance improvements.

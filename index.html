@@ -5,10 +5,16 @@
 layout: wrapper
 ---
 
+<button id="theme-toggle">Switch Theme</button>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+  });
+</script>
+
 {% include hero.html%}
-{% include experience.html %}
-
-
 
 <div class="arrow"> 
     <a href="#more-about-me">
@@ -17,8 +23,8 @@ layout: wrapper
 </div>
 
 
-<div id="more-about-me">
-    <h2>About Me</h2>
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
 
     <p>Hi! I’m <strong>Sudarsan Srinivasan</strong>, a passionate Mechanical and Product Design Engineer with over 3.5 years of experience in the automotive industry, currently advancing my expertise through a Master’s in Mechanical Engineering at the University of Washington.</p>
 
@@ -36,8 +42,9 @@ layout: wrapper
 
     <p>I’m eager to shape the future of mechanical products by blending <strong>design excellence</strong> with <strong>automation intelligence</strong>. Let’s connect!</p>
 
-</div>
+</section>
 
+{% include experience.html %}
  
 {% include projects.html%}
 {% include skills.html%}

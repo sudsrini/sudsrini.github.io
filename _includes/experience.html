@@ -3,17 +3,10 @@
   <div class="cards">
     {% for post in site.experience %}
       <a href="{{ post.url | relative_url }}" class="card">
-        <div class="card-image">
-          <img src="{{ post.main-image }}" alt="{{ post.title }} logo">
-        </div>
+        <img src="{{ post.main-image }}" alt="{{ post.title }} logo">
         <div class="card-content">
-          <h3 class="card-title">{{ post.title }}</h3>
-          <p class="card-description">{{ post.description }}</p>
-          <ul class="skill-list">
-            {% for skill in post.skills %}
-              <li class="skill">{{ skill }}</li>
-            {% endfor %}
-          </ul>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description }}</p>
         </div>
       </a>
     {% endfor %}

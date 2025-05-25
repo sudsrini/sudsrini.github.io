@@ -29,6 +29,21 @@ body {
     margin: 0 auto;
 }
 
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.section-title {
+  border-bottom: 2px solid currentColor;
+}
+
+
 a {
     color: var(--link-color);
     text-decoration: none;
