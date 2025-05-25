@@ -17,16 +17,15 @@
     <script src="/assets/js/script.js"></script>
 
     
-    <title>John Doe's Portfolio</title>
+    <title>Sudarsan Srinivasan Portfolio</title>
     
 
 </head>
 <body>
     <!-- NAVBAR -->
-     <!-- _includes/nav.html -->
-<nav>
+     <nav>
     <div class="left">
-        <a href="/">John Doe</a>
+        <a href="/">Sudarsan Srinivasan</a>
     </div>
 
     <!-- Desktop Menu -->
@@ -34,12 +33,24 @@
         <a href="/">
             <span>Home</span>
         </a>
-        <a href="/projects/">
+        <a href="#experience">
+            <span>Experience</span>
+        </a>
+        <a href="#projects">
             <span>Projects</span>
         </a>
-        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <span>Resume</span>
         </a>
+
+        <!-- Theme Toggle Switch (clearly below with label) -->
+        <div class="theme-toggle" style="margin-top: 60px; display: flex; align-items: right; gap: 8px;">
+            <span style="font-size: 0.9rem;">Toggle Theme</span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
     </div>
 
     <!-- Mobile Menu Button -->
@@ -52,29 +63,41 @@
         <a href="/">
             <span>Home</span>
         </a>
+        <a href="#experience">
+            <span>Experience</span>
+        </a>
         <a href="/projects/">
             <span>Projects</span>
         </a>
-        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <span>Resume</span>
         </a>
     </div>
 </nav>
 
-     <div class="page">
+
+     <div class="page"><script>
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('change', () => {
+        document.body.classList.toggle('dark-theme');
+    });
+</script>
+
+
+
 <!-- SECTION 1: Hero -->
 <section class="hero-section">
     <div class="group">
         <div class="text">
             <h2>
-                I'm John 
+                I'm Sudarsan 
                 
                 <span class="external-links">
                     
                     
                         
                             
-                            <a href="https://www.linkedin.com/in/aramlee1/" target="_blank">
+                            <a href="https://www.linkedin.com/in/sudarsan-srinivasan/" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>
                         
@@ -85,20 +108,13 @@
                     
                         
                             
-                                <a href="https://github.com/leea2/" target="_blank">
+                                <a href="https://github.com/sudsrini/" target="_blank">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             
                             
                         
                     
-                        
-                            
-                                <a href="https://stackoverflow.com/users/test/" target="_blank">
-                                    <i class="fa-brands fa-stack-overflow"></i>
-                                </a>
-                            
-                            
                         
                     
                         
@@ -117,9 +133,13 @@
                 
             </h2>
             
-            <h3> headline message </h3>
-            <p> Write an awesome intro and discuss your highlights and qualification. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+            <h3> Mechanical/Product Design Engineer with cross-disciplinary strength in robotics, automation, and mechatronics. Passionate about designing future-ready systems. </h3>
+            <p> </p>
             <div class="links">
+                <a href="#experience">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Experience</span>
+                </a>
                 <a href="#projects">
                     <i class="fa-solid fa-pen"></i>
                     <span>Projects</span>
@@ -136,7 +156,7 @@
             
         </div>
         <div class="headshot">
-            <img src= ./assets/images/profile-image/avatar.jpeg alt="john doe headshot">       
+            <img src= assets/images/profile-image/SudarsanSrinivasan.jpg alt="john doe headshot">       
         </div>
     </div>
     
@@ -144,14 +164,140 @@
 
 
 
-
-
 <div class="arrow"> 
-    <a href="#projects">
-        More About Me
-    <i class="fa-solid fa-angles-down"></i>
+    <a href="#more-about-me">
+        <i class="fa-solid fa-angles-down"></i> More About Me
     </a> 
 </div>
+
+
+<div id="more-about-me">
+    <h2 class="section-title">About Me</h2>
+
+    <p>Hi! I’m <strong>Sudarsan Srinivasan</strong>, a passionate Mechanical and Product Design Engineer with over 3.5 years of experience in the automotive industry, currently advancing my expertise through a Master’s in Mechanical Engineering at the University of Washington.</p>
+
+    <p>My core strength lies in combining <strong>mechanical design</strong> (CAD, DFM/DFA, GD&T, FEA) with cross-disciplinary capabilities in <strong>mechatronics, robotics, and automation</strong> — building solutions that are not only robust but also intelligent and future-ready.</p>
+
+    <p>At Bajaj Auto, I contributed to full-vehicle programs, driving innovations across engine systems, structural components, and cost-saving initiatives. Now, I’m expanding into <strong>robotics, control systems, and automation design</strong> through projects and research that fuse mechanical engineering with cutting-edge technology.</p>
+
+    <h3>Core Highlights:</h3>
+    <ul>
+        <li>Mechanical Design: Siemens NX, SolidWorks, CATIA, DFM/DFA, GD&T</li>
+        <li>Simulation & Analysis: ANSYS, HyperWorks, FEA, DFMEA, DVP</li>
+        <li>Robotics & Controls: MATLAB, Simulink, ROS, Python, C++</li>
+        <li>Quality & Optimization: VAVE, cost reduction, design validation, supplier collaboration</li>
+    </ul>
+
+    <p>I’m eager to shape the future of mechanical products by blending <strong>design excellence</strong> with <strong>automation intelligence</strong>. Let’s connect!</p>
+
+</div>
+
+<!-- SECTION: Experience -->
+
+<section id="experience" class="project-grid-section">
+    <h2>Experience</h2>
+
+    <div class="grid-container">
+        
+        
+        <a href="/experience/uw-barc/index/" class="project-link">
+            <div class="project-card">
+                
+                
+                <img src="/assets/images/experience/uw-barc.jpg" alt="UW BARC — Autonomous Cleaning Bot Project logo">
+                <h3 class="project-title">UW BARC — Autonomous Cleaning Bot Project</h3>
+                <div class="project-skills">
+                    
+                        <span class="skill">Robotics</span>
+                    
+                        <span class="skill">Mechatronics</span>
+                    
+                        <span class="skill">Mechanical Design</span>
+                    
+                        <span class="skill">MATLAB & Simulink</span>
+                    
+                        <span class="skill">Control Systems</span>
+                    
+                </div>
+                <p class="project-description">Graduate Research Project (Jan 2025 – Present) — Developing an automated cleaning robot integrating mechanical design, robotics, and control systems.</p>
+                <button class="read-more">Read more →</button>
+            </div>
+        </a>
+        
+        <a href="/experience/bajaj-auto/index/" class="project-link">
+            <div class="project-card">
+                
+                
+                <img src="/assets/images/experience/bajaj.jpg" alt="Bajaj Auto Limited logo">
+                <h3 class="project-title">Bajaj Auto Limited</h3>
+                <div class="project-skills">
+                    
+                        <span class="skill">Mechanical Design</span>
+                    
+                        <span class="skill">Siemens NX & CATIA</span>
+                    
+                        <span class="skill">DFM/DFA & GD&T</span>
+                    
+                        <span class="skill">FEA & Simulation</span>
+                    
+                        <span class="skill">Root Cause Analysis</span>
+                    
+                        <span class="skill">Supplier Collaboration</span>
+                    
+                </div>
+                <p class="project-description">Powertrain Design Engineer & Design Quality Engineer (Aug 2018 – Dec 2021) — Led mechanical design, analysis, and quality improvement for ICE/EV systems across 5+ vehicle programs.</p>
+                <button class="read-more">Read more →</button>
+            </div>
+        </a>
+        
+        <a href="/experience/ashok-leyland/index/" class="project-link">
+            <div class="project-card">
+                
+                
+                <img src="/assets/images/experience/ashok.jpg" alt="Ashok Leyland logo">
+                <h3 class="project-title">Ashok Leyland</h3>
+                <div class="project-skills">
+                    
+                        <span class="skill">Manufacturing Processes</span>
+                    
+                        <span class="skill">Process Optimization</span>
+                    
+                        <span class="skill">Time Studies</span>
+                    
+                        <span class="skill">Quality Control</span>
+                    
+                </div>
+                <p class="project-description">Manufacturing Engineering Intern (May 2016 – Jul 2016) — Focused on assembly line process optimization and quality improvements.</p>
+                <button class="read-more">Read more →</button>
+            </div>
+        </a>
+        
+        <a href="/experience/rane-trw/index/" class="project-link">
+            <div class="project-card">
+                
+                
+                <img src="/bajaj.jpg" alt="Rane TRW Steering Systems logo">
+                <h3 class="project-title">Rane TRW Steering Systems</h3>
+                <div class="project-skills">
+                    
+                        <span class="skill">Design Engineering</span>
+                    
+                        <span class="skill">CAD Modeling</span>
+                    
+                        <span class="skill">Tolerance Analysis</span>
+                    
+                        <span class="skill">Product Validation</span>
+                    
+                </div>
+                <p class="project-description">Design Engineering Intern (Jun 2017 – Jul 2017) — Supported steering system component design, validation, and optimization.</p>
+                <button class="read-more">Read more →</button>
+            </div>
+        </a>
+        
+    </div>
+</section>
+
+ 
 <!-- SECTION 3: project -->
 <section id="projects" class="project-grid-section">
     <h2>Projects</h2>
@@ -186,12 +332,32 @@
         </div>
     </a>
 
-    <a href="/projects/sonos-teardown/sonos/" class="project-link">
+    <a href="/projects/safe-robot-arm/index/" class="project-link">
         <div class="project-card">
             
             
-            <img src="/_projects/sonos-teardownproject-image.webp" alt="Sonos teardown image">
-            <h3 class="project-title">Sonos teardown</h3>
+            <img src="/_projects/safe-robot-arm/robot-arm.webp" alt="Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm image">
+            <h3 class="project-title">Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm</h3>
+            <div class="project-skills">
+                
+                    <span class="skill">MATLAB</span>
+                
+                    <span class="skill">Simulink</span>
+                
+                    <span class="skill">Control Theory</span>
+                
+            </div>
+            <p class="project-description">Designed a CLF-CBF QP controller to ensure safe and stable trajectory tracking under dynamic constraints.</p>
+            <button class="read-more">Read more →</button>
+        </div>
+    </a>
+
+    <a href="/projects/sonos-teardown/index/" class="project-link">
+        <div class="project-card">
+            
+            
+            <img src="/_projects/sonos-teardown/sonos.png" alt="Sonos Teardown image">
+            <h3 class="project-title">Sonos Teardown</h3>
             <div class="project-skills">
                 
                     <span class="skill">drumel</span>
@@ -222,28 +388,12 @@
         
           <li>
             <div class="skills-card">
-              <span class="category-label">3D Modeling</span>
+              <span class="category-label">CAD & Mechanical Design</span>
             
               <ul class="skills-list">
                 
                   <li class="skill">
-                    Onshape
-                  </li>
-                
-                  <li class="skill">
-                    Solidworks
-                  </li>
-                
-                  <li class="skill">
-                    Creo
-                  </li>
-                
-                  <li class="skill">
-                    Fusion 360 (Autodesk)
-                  </li>
-                
-                  <li class="skill">
-                    Blender (for complex shapes or animations)
+                    SolidWorks
                   </li>
                 
                   <li class="skill">
@@ -251,66 +401,31 @@
                   </li>
                 
                   <li class="skill">
-                    Inventor (Autodesk)
+                    CATIA V5
                   </li>
                 
                   <li class="skill">
-                    CATIA (Dassault Systèmes)
-                  </li>
-                
-                </ul>
-            </div>
-            
-          </li> 
-        
-          <li>
-            <div class="skills-card">
-              <span class="category-label">Prototyping</span>
-            
-              <ul class="skills-list">
-                
-                  <li class="skill">
-                    SLA
+                    2D Drawings & GD&T
                   </li>
                 
                   <li class="skill">
-                    CNC
+                    DFM/DFA
                   </li>
                 
                   <li class="skill">
-                    FDM
+                    Tolerance Stack-Up
                   </li>
                 
                   <li class="skill">
-                    SLS
+                    Injection-Molded Plastics
                   </li>
                 
                   <li class="skill">
-                    DMLS
+                    Sheet Metal
                   </li>
                 
                   <li class="skill">
-                    PolyJet Printing
-                  </li>
-                
-                  <li class="skill">
-                    Vacuum Casting
-                  </li>
-                
-                  <li class="skill">
-                    Laser Cutting
-                  </li>
-                
-                  <li class="skill">
-                    Water Jet Cutting
-                  </li>
-                
-                  <li class="skill">
-                    Arduino / Raspberry Pi
-                  </li>
-                
-                  <li class="skill">
-                    Breadboarding for circuit testing
+                    Castings
                   </li>
                 
                 </ul>
@@ -320,20 +435,36 @@
         
           <li>
             <div class="skills-card">
-              <span class="category-label">Design Standards / Practices</span>
+              <span class="category-label">Simulation & Prototyping</span>
             
               <ul class="skills-list">
                 
                   <li class="skill">
-                    GD&T ASME Y14
+                    ANSYS
                   </li>
                 
                   <li class="skill">
-                    ISO fits and tolerances
+                    HyperView
                   </li>
                 
                   <li class="skill">
-                    PLM (PTC Windchill / Arena)
+                    MATLAB
+                  </li>
+                
+                  <li class="skill">
+                    FEA
+                  </li>
+                
+                  <li class="skill">
+                    Hands-on Prototyping
+                  </li>
+                
+                  <li class="skill">
+                    Fabrication & Testing
+                  </li>
+                
+                  <li class="skill">
+                    Part Validation
                   </li>
                 
                 </ul>
@@ -343,24 +474,36 @@
         
           <li>
             <div class="skills-card">
-              <span class="category-label">PCB Design</span>
+              <span class="category-label">Coding & Control Systems</span>
             
               <ul class="skills-list">
                 
                   <li class="skill">
-                    Altium Designer
+                    Python
                   </li>
                 
                   <li class="skill">
-                    Altium
+                    MATLAB
                   </li>
                 
                   <li class="skill">
-                    Eagle
+                    C++
                   </li>
                 
                   <li class="skill">
-                    KiCad
+                    Simulink
+                  </li>
+                
+                  <li class="skill">
+                    Mechatronics
+                  </li>
+                
+                  <li class="skill">
+                    Sensors & Wire Harness
+                  </li>
+                
+                  <li class="skill">
+                    System Integration (Mechanical + Electrical)
                   </li>
                 
                 </ul>
@@ -370,24 +513,28 @@
         
           <li>
             <div class="skills-card">
-              <span class="category-label">Problem Solving / Risk Management</span>
+              <span class="category-label">Collaboration & Process</span>
             
               <ul class="skills-list">
                 
                   <li class="skill">
-                    Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
+                    Cross-Functional Teamwork
                   </li>
                 
                   <li class="skill">
-                    DFMEA / PFMEA
+                    Supplier Communication
                   </li>
                 
                   <li class="skill">
-                    Six Sigma methodologies
+                    PLM Tools & BOM Management
                   </li>
                 
                   <li class="skill">
-                    Shain Red-X
+                    Change Management
+                  </li>
+                
+                  <li class="skill">
+                    VAVE / Cost-Reduction Projects
                   </li>
                 
                 </ul>
@@ -429,17 +576,27 @@
             <a href="/">
                 <span>Home</span>
             </a>
-            <a href="/projects/">
+            <a href="#experience">
+                <span>Experience</span>
+            </a>
+            <a href="#projects">
                 <span>Projects</span>
             </a>
-            <a href=https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing target="_blank" rel="noopener noreferrer">
+            <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
             </a>
         </div>
     </div>
     <div class="license">
-        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="https://createdotshow.com"> Here</a> </span>
-        <p>FreeToEngineer portfolio template © 2025 by Aram Lee is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+        <span>
+            For any questions or suggestions about my portfolio, feel free to 
+            <a class="help" href="mailto:sudsrini@uw.edu">email me here</a>.
+        </span>
+        <p>
+            © 2025 Sudarsan Srinivasan. Built using the FreeToEngineer portfolio template, 
+            licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank">CC BY 4.0</a>.
+        </p>
     </div>
 </footer>
+
 </html>

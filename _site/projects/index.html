@@ -17,16 +17,15 @@
     <script src="/assets/js/script.js"></script>
 
     
-    <title>John Doe's Portfolio</title>
+    <title>Sudarsan Srinivasan Portfolio</title>
     
 
 </head>
 <body>
     <!-- NAVBAR -->
-     <!-- _includes/nav.html -->
-<nav>
+     <nav>
     <div class="left">
-        <a href="/">John Doe</a>
+        <a href="/">Sudarsan Srinivasan</a>
     </div>
 
     <!-- Desktop Menu -->
@@ -34,12 +33,24 @@
         <a href="/">
             <span>Home</span>
         </a>
-        <a href="/projects/">
+        <a href="#experience">
+            <span>Experience</span>
+        </a>
+        <a href="#projects">
             <span>Projects</span>
         </a>
-        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <span>Resume</span>
         </a>
+
+        <!-- Theme Toggle Switch (clearly below with label) -->
+        <div class="theme-toggle" style="margin-top: 60px; display: flex; align-items: right; gap: 8px;">
+            <span style="font-size: 0.9rem;">Toggle Theme</span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
     </div>
 
     <!-- Mobile Menu Button -->
@@ -52,14 +63,18 @@
         <a href="/">
             <span>Home</span>
         </a>
+        <a href="#experience">
+            <span>Experience</span>
+        </a>
         <a href="/projects/">
             <span>Projects</span>
         </a>
-        <a href="https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <span>Resume</span>
         </a>
     </div>
 </nav>
+
 
      <div class="page"><!-- SECTION 3: project -->
 <section id="projects" class="project-grid-section">
@@ -95,12 +110,32 @@
         </div>
     </a>
 
-    <a href="/projects/sonos-teardown/sonos/" class="project-link">
+    <a href="/projects/safe-robot-arm/index/" class="project-link">
         <div class="project-card">
             
             
-            <img src="/_projects/sonos-teardownproject-image.webp" alt="Sonos teardown image">
-            <h3 class="project-title">Sonos teardown</h3>
+            <img src="/_projects/safe-robot-arm/robot-arm.webp" alt="Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm image">
+            <h3 class="project-title">Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm</h3>
+            <div class="project-skills">
+                
+                    <span class="skill">MATLAB</span>
+                
+                    <span class="skill">Simulink</span>
+                
+                    <span class="skill">Control Theory</span>
+                
+            </div>
+            <p class="project-description">Designed a CLF-CBF QP controller to ensure safe and stable trajectory tracking under dynamic constraints.</p>
+            <button class="read-more">Read more →</button>
+        </div>
+    </a>
+
+    <a href="/projects/sonos-teardown/index/" class="project-link">
+        <div class="project-card">
+            
+            
+            <img src="/_projects/sonos-teardown/sonos.png" alt="Sonos Teardown image">
+            <h3 class="project-title">Sonos Teardown</h3>
             <div class="project-skills">
                 
                     <span class="skill">drumel</span>
@@ -123,6 +158,7 @@
 
 
  </section>
+
 </div>
 
      
@@ -134,17 +170,27 @@
             <a href="/">
                 <span>Home</span>
             </a>
-            <a href="/projects/">
+            <a href="#experience">
+                <span>Experience</span>
+            </a>
+            <a href="#projects">
                 <span>Projects</span>
             </a>
-            <a href=https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing target="_blank" rel="noopener noreferrer">
+            <a href="assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
             </a>
         </div>
     </div>
     <div class="license">
-        <span>For any question or suggestion for the portfolio template or projects, reach out <a class="help" href="https://createdotshow.com"> Here</a> </span>
-        <p>FreeToEngineer portfolio template © 2025 by Aram Lee is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a></p>
+        <span>
+            For any questions or suggestions about my portfolio, feel free to 
+            <a class="help" href="mailto:sudsrini@uw.edu">email me here</a>.
+        </span>
+        <p>
+            © 2025 Sudarsan Srinivasan. Built using the FreeToEngineer portfolio template, 
+            licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank">CC BY 4.0</a>.
+        </p>
     </div>
 </footer>
+
 </html>

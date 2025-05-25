@@ -11,7 +11,7 @@ skills:
     - MATLAB & Simulink
     - Control Systems
 
-main-image: /uw-barc.jpg
+main-image: /assets/images/experience/uw-barc.jpg
 ---
 
 ## Summary

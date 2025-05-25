@@ -10,7 +10,7 @@ skills:
     - Time Studies
     - Quality Control
 
-main-image: /ashok.jpg
+main-image: /assets/images/experience/ashok.jpg
 ---
 
 ## Summary

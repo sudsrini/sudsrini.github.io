@@ -12,7 +12,7 @@ skills:
     - Root Cause Analysis
     - Supplier Collaboration
   
-main-image: /bajaj.jpg
+main-image: /assets/images/experience/bajaj.jpg
 ---
 
 ## Summary
