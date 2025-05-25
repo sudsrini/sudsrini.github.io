@@ -1,51 +1,82 @@
-<nav>
-    <div class="left">
-        <a href="/">{{site.name}}</a>
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="/">{{ site.name }}</a>
     </div>
 
-    <!-- Desktop Menu -->
-    <div class="right desktop-nav">
-        <a href="/">
-            <span>Home</span>
-        </a>
-        <a href="#experience">
-            <span>Experience</span>
-        </a>
-        <a href="#projects">
-            <span>Projects</span>
-        </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
-        </a>
+    <div class="nav-right">
+        <div class="desktop-nav">
+            <a href="/">
+                <span>Home</span>
+            </a>
 
-        <!-- Theme Toggle Switch (clearly below with label) -->
-        <div class="theme-toggle" style="margin-top: 60px; display: flex; align-items: right; gap: 8px;">
-            <span style="font-size: 0.9rem;">Toggle Theme</span>
+            {% if page.url == "/" %}
+                <a href="#experience">
+                    <span>Experience</span>
+                </a>
+                <a href="#projects">
+                    <span>Projects</span>
+                </a>
+            {% else %}
+                <a href="/#experience">
+                    <span>Experience</span>
+                </a>
+                <a href="/projects/">
+                    <span>Projects</span>
+                </a>
+            {% endif %}
+
+            <a href="{{ site.resume-url }}" target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+        </div>
+
+        <!-- Desktop Theme Toggle -->
+        <div class="theme-toggle-container desktop-toggle">
+            <span class="toggle-label">Toggle Theme</span>
             <label class="switch">
                 <input type="checkbox" id="theme-toggle">
                 <span class="slider round"></span>
             </label>
         </div>
-    </div>
 
-    <!-- Mobile Menu Button -->
-    <button class="menu-toggle" aria-label="Toggle menu">
-        <i class="fa fa-bars fa-2x"></i>
-    </button>
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-nav">
-        <a href="/">
-            <span>Home</span>
-        </a>
-        <a href="#experience">
-            <span>Experience</span>
-        </a>
-        <a href="/projects/">
-            <span>Projects</span>
-        </a>
-        <a href="{{site.resume-url}}" target="_blank" rel="noopener noreferrer">
-            <span>Resume</span>
-        </a>
+        <div class="mobile-nav">
+            <a href="/">
+                <span>Home</span>
+            </a>
+
+            {% if page.url == "/" %}
+                <a href="#experience">
+                    <span>Experience</span>
+                </a>
+                <a href="#projects">
+                    <span>Projects</span>
+                </a>
+            {% else %}
+                <a href="/#experience">
+                    <span>Experience</span>
+                </a>
+                <a href="/projects/">
+                    <span>Projects</span>
+                </a>
+            {% endif %}
+
+            <a href="{{ site.resume-url }}" target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+            </a>
+
+            <!-- Mobile Theme Toggle -->
+            <div class="theme-toggle-container mobile-toggle">
+                <span class="toggle-label">Toggle Theme</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-mobile">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
     </div>
 </nav>

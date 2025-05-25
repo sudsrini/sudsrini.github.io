@@ -102,6 +102,26 @@ body.dark-theme a {
     color: #90caf9;
 }
 
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-toggle-container.desktop-toggle {
+    margin-left: 20px;
+}
+
+.theme-toggle-container.mobile-toggle {
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
 
 
 
@@ -178,6 +198,34 @@ nav .mobile-nav a span:last-child:hover,{
     background-color: var(--light-background-color);
     border-radius: 10px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.nav-left a {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
 
 /* Navbar Mobile Menu Button */
 nav .menu-toggle {

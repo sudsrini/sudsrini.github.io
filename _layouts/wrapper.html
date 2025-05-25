@@ -30,5 +30,38 @@
      
 </body>
 
+<script>
+const toggleSwitches = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+
+if (toggleSwitches.length) {
+    if (!localStorage.getItem('theme')) {
+        localStorage.setItem('theme', 'dark');
+    }
+
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-theme');
+        toggleSwitches.forEach(t => t.checked = true);
+    } else {
+        document.body.classList.remove('dark-theme');
+        toggleSwitches.forEach(t => t.checked = false);
+    }
+
+    toggleSwitches.forEach(toggleSwitch => {
+        toggleSwitch.addEventListener('change', () => {
+            if (toggleSwitch.checked) {
+                document.body.classList.add('dark-theme');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.body.classList.remove('dark-theme');
+                localStorage.setItem('theme', 'light');
+            }
+            // Sync both toggles
+            toggleSwitches.forEach(t => t.checked = toggleSwitch.checked);
+        });
+    });
+}
+</script>
+
+
     {% include footer.html%}
 </html>
