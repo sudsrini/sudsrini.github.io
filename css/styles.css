@@ -21,6 +21,17 @@ html {
     scroll-behavior: smooth
 }
 
+/* DARK THEME OVERRIDES */
+
+body.dark-theme {
+  --text-color: #ffffff;
+  --border-color: #444444;
+  --link-color: #66ccff;
+  --highlight-color: #ffcc00;
+  --background-color: #121212;
+  --light-background-color: #1e1e1e;
+}
+
 body {
     padding: 0 50px;
     font-family: 'Poppins', sans-serif;
@@ -29,19 +40,7 @@ body {
     margin: 0 auto;
 }
 
-body {
-  background-color: white;
-  color: black;
-}
 
-body.dark-theme {
-  background-color: #121212;
-  color: white;
-}
-
-.section-title {
-  border-bottom: 2px solid currentColor;
-}
 
 
 a {
