@@ -1,5 +1,5 @@
-order: 1
 ---
+order: 1
 layout: post
 title: UW BARC — Autonomous Cleaning Bot Project
 description: Graduate Research Project (Jan 2025 – Present) — Developing an automated cleaning robot integrating mechanical design, robotics, and control systems.

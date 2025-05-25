@@ -1,5 +1,5 @@
-order: 2
 ---
+order: 2
 layout: post
 title: Bajaj Auto Limited
 description: Powertrain Design Engineer & Design Quality Engineer (Aug 2018 – Dec 2021) — Led mechanical design, analysis, and quality improvement for ICE/EV systems across 5+ vehicle programs.
