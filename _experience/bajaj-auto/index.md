@@ -34,4 +34,4 @@ At Bajaj Auto, I worked across both design and quality engineering roles, focusi
 - Cross-functional teamwork with suppliers, manufacturing, and testing teams
 
 ## Images
-{% include image-gallery.html images="experience-bajaj.jpg" height="400" %}
+{% include image-gallery.html images="bajaj.jpg" height="400" %}

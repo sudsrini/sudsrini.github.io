@@ -27,4 +27,4 @@ During my internship at Rane TRW Steering Systems, I worked closely with the des
 - Worked in a cross-functional environment, bridging design and testing.
 
 ## Images
-{% include image-gallery.html images="experience-rane.jpg" height="400" %}
+{% include image-gallery.html images="bajaj.jpg" height="400" %}

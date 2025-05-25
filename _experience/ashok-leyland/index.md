@@ -29,4 +29,4 @@ As a Manufacturing Engineering Intern at Ashok Leyland, I worked within the vehi
 - Strengthened skills in process analysis, problem-solving, and cross-team collaboration.
 
 ## Images
-{% include image-gallery.html images="experience-ashok.jpg" height="400" %}
+{% include image-gallery.html images="ashok.jpg" height="400" %}
