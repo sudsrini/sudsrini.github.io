@@ -1,5 +1,5 @@
-order: 4
 ---
+order: 4
 layout: post
 title: Rane TRW Steering Systems
 description: Design Engineering Intern (Jun 2017 – Jul 2017) — Supported steering system component design, validation, and optimization.

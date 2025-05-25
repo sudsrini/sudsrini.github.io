@@ -146,10 +146,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-    
   experience:
-  output: true
-  permalink: /:collection/:path/
+    output: true
+    permalink: /experience/:path/
+
 
 
 markdown: kramdown
