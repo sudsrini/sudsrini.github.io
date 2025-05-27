@@ -1,35 +1,50 @@
 ---
 order: 1
 layout: post
-title: UW BARC — Autonomous Cleaning Bot Project
-description: Graduate Research Project (Jan 2025 – Present) — Developing an automated cleaning robot integrating mechanical design, robotics, and control systems.
-
+title: UW BARC — Inspection Cell Cleaning System
+description: Graduate Research Project (Dec 2025 – Present) — Leading mechanical design for an autonomous cleaning robot for non-destructive inspection water cells.
 skills:
-    - Robotics
-    - Mechatronics
     - Mechanical Design
-    - MATLAB & Simulink
-    - Control Systems
+    - CAD Modeling (Solidworks)
+    - System Integration
+    - Cross-functional Collaboration
+    - Material Selection
+    - IP65 Design
+    - Actuator Design
 
 main-image: /assets/images/experience/uw-barc.jpg
 ---
 
 ## Summary
 
-As part of the UW BARC (Boeing Advanced Research Collaboration) research group, I led the mechanical and control system design for an autonomous cleaning bot.  
+As part of the Boeing Advanced Research Collaboration (BARC), I lead the mechanical design for an autonomous cleaning robot for non-destructive inspection (NDI) water cells. These inspection tanks currently require periodic manual cleaning that disrupts operations for 2-3 days. Our goal is to develop a robotic system capable of fully autonomous, efficient cleaning, reducing maintenance frequency and improving overall system availability.
 
-The system combined:
-- A rotating brush + squeegee mechanism for effective debris removal  
-- A wireless charging interface for autonomous docking  
-- Low-loss power routing and robust electrical load handling
-
-I applied principles of mechatronics and robotics to ensure safe, efficient operation in confined, damp environments. My work included CAD design, prototyping, control development using MATLAB/Simulink, and performance validation, delivering a fully functional prototype ready for further testing and deployment.
+I am responsible for the mechanical design of the robot's packaging, chassis, and cleaning subsystem. This includes developing a modular, low-profile frame that fits within tight tank geometries, integrating mecanum wheel drive for omnidirectional motion, and designing a combined rotating brush + squeegee system to effectively remove fine debris from wet surfaces. The system must balance compactness, durability, and manufacturability while supporting the project's autonomous operational goals.
 
 ## Highlights
-- Designed and prototyped mechanical cleaning system (brush, squeegee, drive system)
-- Integrated sensors and controllers to enable autonomous navigation and obstacle avoidance
-- Developed a wireless recharging dock, optimizing power transfer and system reliability
-- Collaborated with a cross-disciplinary team, blending mechanical, electrical, and software components
+- Designed compact chassis (8" x 17" x 6") housing drivetrain, power, and cleaning modules
+- Engineered brush-and-squeegee mechanism for simultaneous debris agitation and collection
+- Created detailed CAD assemblies and technical drawings for fabrication
+- Collaborated on material and component selection for chemical and water resistance
+- Supported system integration by coordinating with perception, control, and power teams
+- Validated fit, clearance, and integration using mechanical simulations and layout reviews
+
+## Key Projects
+
+### Mechanical Design & System Integration
+- Led mechanical design of robot's packaging, chassis, and cleaning subsystem
+- Developed modular, low-profile frame optimized for tight tank geometries
+- Integrated mecanum wheel drive for omnidirectional motion
+- Designed combined rotating brush + squeegee system for effective debris removal
+- Created detailed CAD assemblies and technical drawings for fabrication
+- Ensured IP65 compliance for wet, chemically exposed environments
+
+### Cross-functional Collaboration
+- Coordinated with electronics, controls, and software teams for system integration
+- Supported material and component selection for chemical and water resistance
+- Conducted mechanical simulations and layout reviews for validation
+- Collaborated on perception, control, and power system integration
+- Led cross-functional design reviews and technical documentation
 
 ## Images
 {% include image-gallery.html images="uw-barc.jpg" height="400" %}
