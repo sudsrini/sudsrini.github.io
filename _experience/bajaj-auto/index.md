@@ -2,32 +2,34 @@
 order: 2
 layout: post
 title: Bajaj Auto Limited
-description: Mechanical Design Engineer  (Jan 2021 – Jul 2024) — Led mechanical design and quality engineering for ICE/EV platforms in full-vehicle programs (2-wheelers, 3-wheelers, electric vehicles).
+description: As a Mechanical Design Engineer, I	led design and development of aluminum castings, plastic covers, gaskets - both metal & fiber, and sheet metal brackets, for ICE (2Wh) and EV platforms (3Wh), adhering to regulatory norms, styling, DFMEA, and production feasibility for high-volume production
 
 skills:
     - Mechanical Design
     - Siemens NX
-    - CATIA V5
-    - SolidWorks
-    - DFM/DFA & GD&T
+    - GD&T
+    - Die casting
+    - Injection molding
+    - Machining
+    - DFM/DFA 
     - FEA (ANSYS, HyperView)
-    - Root Cause Analysis
+    - 8D Root Cause Analysis
     - DFMEA, DVP, DRBFM
-    - Supplier Collaboration
+    - Cross functional Collaboration
     - NXOpen Automation
     - VAVE
 
 main-image: /experience/bajaj-auto/bajaj.jpg
 ---
 
-## Summary
+<!-- ## Summary
 
-At Bajaj Auto, I worked as a Powertrain Design Engineer & Design Quality Engineer, delivering optimized and manufacturable powertrain systems for both ICE and EV platforms. My role spanned hands-on mechanical design, FEA, and quality improvement leadership, with a focus on manufacturability, cost savings, and cross-functional collaboration. I led the design of engine components, automated CAD workflows, and drove VAVE initiatives, while collaborating with global brands and supplier teams to ensure robust, reliable products.
+At Bajaj Auto, I worked as a Powertrain Design Engineer & Design Quality Engineer, delivering optimized and manufacturable powertrain systems for both ICE and EV platforms. My role spanned hands-on mechanical design, FEA, and quality improvement leadership, with a focus on manufacturability, cost savings, and cross-functional collaboration. I led the design of engine components, automated CAD workflows, and drove VAVE initiatives, while collaborating with global brands and supplier teams to ensure robust, reliable products. -->
 
 ## Highlights
 - Led the design and development of crankcases, covers, and gaskets using Siemens NX, ensuring manufacturability and structural integrity
 - Automated gasket CAD modeling and validation with NXOpen scripting, reducing design cycle time by 76%
-- Conducted 20+ FEA and contact pressure simulations (ANSYS, HyperView) to inform structural and sealing decisions
+- Conducted 20+ FEA simulations (ANSYS, HyperView) for structural and sealing performance optimization
 - Spearheaded VAVE initiatives: clutch cover weight reduction (11%), jet nozzle cost optimization, and parts consolidation, saving $15,000+ annually
 - Led root cause analysis on 100+ in-house and 10+ field failures; implemented corrective actions with testing, manufacturing, and supplier teams
 - Updated DFMEA, DVP, and DRBFM documents using test insights, enhancing product durability and system reliability
@@ -43,7 +45,7 @@ At Bajaj Auto, I worked as a Powertrain Design Engineer & Design Quality Enginee
 - Implemented DFM/DFA principles and GD&T to ensure manufacturability
 - Collaborated with manufacturing and supplier teams to resolve production issues
 
-{% include image-gallery.html images="bajaj.jpg" height="400" %}
+{% include image-gallery.html images="bajaj1.jpg" height="400" %}
 
 
 ### CAD Automation & Process Improvement
@@ -72,5 +74,5 @@ At Bajaj Auto, I worked as a Powertrain Design Engineer & Design Quality Enginee
 - Led cross-functional meetings to align on design changes and improvements
 
 ## Images
-{% include image-gallery.html images="bajaj.jpg" height="400" %}
+{% include image-gallery.html images="bajaj0.jpg" height="400" %}
 
