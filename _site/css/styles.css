@@ -620,6 +620,11 @@ nav .mobile-nav {
     transition: 0.1s
 }
 
+body.dark-theme .contact-section .group form input,
+body.dark-theme .contact-section .group form textarea {
+    color: #fff;
+}
+
 
 /* FOOTER */
 

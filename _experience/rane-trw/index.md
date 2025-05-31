@@ -2,29 +2,44 @@
 order: 4
 layout: post
 title: Rane TRW Steering Systems
-description: Design Engineering Intern (Jun 2017 – Jul 2017) — Supported steering system component design, validation, and optimization.
+description: As an intern, focus was on optimizing the drop-arm painting process.Achieved significant improvements in production efficiency and output through process analysis and custom equipment design.
 skills:
+- Time study analysis
+- Process optimization
 - Design Engineering
 - CAD Modeling
-- Tolerance Analysis
 - Product Validation
-main-image: /bajaj.jpg
+- SolidWorks for CAD design
+- On-ground implementation and testing
+
+main-image: /experience/rane-trw/rane.jpg
 ---
+ 
+## Overview
 
-## Summary
+### Objective
 
-During my internship at Rane TRW Steering Systems, I worked closely with the design engineering team to develop and validate critical steering system components.  
+Improve the efficiency of the drop-arm painting process by identifying bottlenecks and implementing workflow enhancements.
 
-### Key Contributions:
-- Created and modified CAD models of steering components to improve manufacturability and meet design requirements.
-- Conducted tolerance stack-up analysis to ensure robust fit and function within assembly.
-- Supported validation testing by preparing documentation and analyzing results to verify performance under load.
-- Collaborated with senior engineers to recommend design improvements and cost-effective solutions.
+### Methodology
 
-## Highlights
-- Gained hands-on experience with automotive steering system design.
-- Enhanced skills in CAD, tolerance analysis, and design-for-manufacturing.
-- Worked in a cross-functional environment, bridging design and testing.
+- Performed time studies to quantify cycle times and identify inefficiencies
+- 
+- Analyzed non-value-adding activities in the workflow
+- 
+- Proposed and implemented engineering solutions using SolidWorks
+- 
+- Designed specialized equipment to streamline operations
+
+### Results
+
+- Achieved 50% improvement in cycles per hour (from 2 to 3)
+- 
+- Increased maximum hourly output from 64 to 152 units
+- 
+- Successfully eliminated workflow inefficiencies
+- 
+- Enhanced overall operational efficiency
 
 ## Images
-{% include image-gallery.html images="bajaj.jpg" height="400" %}
+{% include image-gallery.html images="trolley.jpg" height="400" %}

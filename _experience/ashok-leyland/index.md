@@ -1,7 +1,7 @@
 ---
 order: 3
 layout: post
-title: Process Improvement Intern | Ashok Leyland 
+title: Ashok Leyland 
 description: Worked on two key projects to improve commercial vehicle manufacturing processes - focused on assembly line process optimization and quality improvements. 
 
 skills:
@@ -13,7 +13,7 @@ skills:
     - Documentation
     - Cross-functional Collaboration
 
-main-image: /assets/images/experience/ashok.jpg
+main-image: /experience/ashok-leyland/ashok.jpg
 ---
 # Project 1: BS4 to BS6 Process Alignment
 
@@ -46,14 +46,9 @@ Upgraded BS4 engine Work Instruction Sheets (WIS) and Standard Operating Procedu
 - Helped implement an additional ABS sensor checking stage, reducing late-stage test failures and improving production efficiency.
 
 
-{% include image-gallery.html images="ashok.jpg" height="400" %}
+{% include image-gallery.html images="project1.jpg" height="400" %}
 
-Suggested Media Captions
-📸 Image 1: Example of an SOP used to train new operators.
 
-📸 Image 2: WIS document with detailed step-by-step assembly instructions.
-
-📸 Image 3: BS6-compliant P15 engine used in updated processes.
 
 # Project 2: ABS Sensor Issue Resolution
 
@@ -82,8 +77,4 @@ Improved the straight pass percentage of vehicles in Road Tests (Speed, Brake, A
 
 Integrated a new diagnostic and testing process at the Axle Shop, leading to improved pass rates and faster issue resolution in final Road Tests.
 
-📸 Image 1: Pareto chart highlighting ABS-related issue breakdown.
-
-📸 Image 2: Technical schematic of ABS sensor and axle setup.
-
-📸 Image 3: SensorMaster ABS diagnostic tool used for early fault detection.
+{% include image-gallery.html images="project2.jpg" height="400" %}

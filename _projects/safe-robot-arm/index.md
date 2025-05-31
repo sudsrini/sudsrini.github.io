@@ -6,7 +6,7 @@ skills:
   - MATLAB
   - Simulink
   - Control Theory
-main-image: /robot-arm.webp
+main-image: /projects/safe-robot-arm/safe.jpg
 ---
 
 ## Project Overview
