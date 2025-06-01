@@ -7,14 +7,13 @@
 
 # Main Page Setup
 
-title: Sudarsan Srinivasan Portfolio # This is what shows up in the tab of the browser
+title: Sudarsan Srinivasan's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Mechanical/Product Design Engineer with cross-disciplinary strength in robotics, automation, and mechatronics.
-          Passionate about designing future-ready systems.
+headline: Mechanical Design Engineer who’s passionate about great design — and excited to explore robotics, automation, and mechatronics.
 description: >- # dont remove this line. this will ignore all new lines until the next section
   
   
@@ -26,7 +25,7 @@ profile_image: assets/images/profile-image/SudarsanSrinivasan.jpg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: assets/resume/SudarsanSrinivasan_Resume.pdf
+resume-url: /assets/resume/SudarsanSrinivasan_Resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -46,45 +45,60 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: CAD & Mechanical Design
+  - category: CAD & Simulation
     tools:
-      - SolidWorks
       - Siemens NX
+      - SolidWorks (Certified SolidWorks Professional)
       - CATIA V5
-      - 2D Drawings & GD&T
+      - AutoCAD
+      - ANSYS Mechanical
+      - HyperWorks
+      - 2D/3D Modeling
+      - GD&T
+      - Tolerance Analysis
+
+  - category: Design & Manufacturing
+    tools:
       - DFM/DFA
-      - Tolerance Stack-Up
-      - Injection-Molded Plastics
-      - Sheet Metal
-      - Castings
+      - DFMEA
+      - Design Validation (DVP)
+      - Rapid Prototyping
+      - Machining
+      - 3D Printing (FDM)
+      - Die Casting (Aluminum)
+      - Injection Molding (Plastic)
 
-  - category: Simulation & Prototyping
+  - category: Programming & Automation
     tools:
-      - ANSYS
-      - HyperView
       - MATLAB
-      - FEA
-      - Hands-on Prototyping
-      - Fabrication & Testing
-      - Part Validation
-
-  - category: Coding & Control Systems
-    tools:
-      - Python
-      - MATLAB
-      - C++
       - Simulink
-      - Mechatronics
-      - Sensors & Wire Harness
-      - System Integration (Mechanical + Electrical)
+      - Python
+      - C++
+      - ROS
+      - PLC Programming
+      - Control Systems
+      - System Integration
 
-  - category: Collaboration & Process
+  - category: Electrical & Controls
     tools:
-      - Cross-Functional Teamwork
+      - Sensor Integration
+      - Pneumatic Systems
+      - Microcontrollers (Raspberry Pi, Arduino)
+      - Mechatronics Systems
+
+  - category: Data & Analysis Tools
+    tools:
+      - Tableau
+      - Microsoft Excel
+      - Data Visualization
+      - Root Cause Analysis (8D, Pareto, Ishikawa)
+
+  - category: Collaboration & Tools
+    tools:
+      - Siemens Teamcenter PLM
+      - Microsoft Office Suite
+      - Cross-functional Teamwork
       - Supplier Communication
-      - PLM Tools & BOM Management
-      - Change Management
-      - VAVE / Cost-Reduction Projects
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.

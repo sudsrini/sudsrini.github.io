@@ -1,4 +1,5 @@
 ---
+order: 2
 layout: post
 title: Modeling Heat Transfer in Metal Quenching using Peridynamic Continuum Modeling
 description: Developed and validated a Peridynamic heat transfer model to analyze temperature profiles during metal quenching, extending classical DC casting theories.

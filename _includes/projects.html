@@ -1,7 +1,8 @@
 <!-- SECTION 3: project -->
 <section id="projects" class="project-grid-section">
     <div class="grid-container">
-        {% for item in site.projects %}
+        {% assign sorted_projects = site.projects | sort: 'order' %}
+        {% for item in sorted_projects %}
     <a href="{{ item.url }}" class="project-link">
         <div class="project-card">
             {% if item['main-image'] contains '/' %}
