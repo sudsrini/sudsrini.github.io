@@ -17,3 +17,6 @@ Developed and implemented a Control Lyapunov Function (CLF) and Control Barrier 
 - Ensured real-time trajectory tracking while maintaining safety constraints.
 - Simulated system performance and verified theoretical guarantees.
 - Tools used: MATLAB, Simulink.
+
+## Project Documentation
+For a detailed technical report of this project, please visit the [Project Report](/projects/safe-robot-arm/report).

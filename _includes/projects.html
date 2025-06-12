@@ -1,4 +1,8 @@
 <!-- SECTION 3: project -->
+ <!-- MathJax for LaTeX math rendering -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <section id="projects" class="project-grid-section">
     <div class="grid-container">
         {% assign sorted_projects = site.projects | sort: 'order' %}
