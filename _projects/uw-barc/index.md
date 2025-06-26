@@ -12,7 +12,7 @@ skills:
     - IP65 Design
     - Actuator Design
 
-main-image: /experience/uw-barc/uw-barc.jpg
+main-image: /projects/uw-barc/uw-barc.jpg
 ---
 ### NDI Inspection - a video
 {% include youtube-video.html id="ZQQSW8a-vXY" autoplay = "false" width= "900px" %}

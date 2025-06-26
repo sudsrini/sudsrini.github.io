@@ -13,7 +13,7 @@ title: Sudarsan Srinivasan's Portfolio # This is what shows up in the tab of the
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Mechanical Design Engineer who’s passionate about great design — and excited to explore robotics, automation, and mechatronics.
+headline: Mechanical Design Engineer exploring the future of robotics and automation
 description: >- # dont remove this line. this will ignore all new lines until the next section
   
   
@@ -184,6 +184,7 @@ plugins:
 
 include:
   - _projects
+  - reports
 
 
 # Exclude from processing.

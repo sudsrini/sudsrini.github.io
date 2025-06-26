@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 layout: post
 title: Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm
 description: Designed a CLF-CBF QP controller to ensure safe and stable trajectory tracking under dynamic constraints.
@@ -19,4 +19,4 @@ Developed and implemented a Control Lyapunov Function (CLF) and Control Barrier 
 - Tools used: MATLAB, Simulink.
 
 ## Project Documentation
-For a detailed technical report of this project, please visit the [Project Report](/projects/safe-robot-arm/report).
+For a detailed technical report of this project, please visit the [Project Report](/reports/safe-robot-arm-report).

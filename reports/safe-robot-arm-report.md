@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 0
 layout: post
 title: Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm using CLF-CBF QP - Technical Report
 description: This project investigates the application of Control Lyapunov Functions (CLFs) and Control Barrier Functions (CBFs) to ensure both performance and safety in robotic control. We implemented a CLF-CBF QP controller for a 2-DOF robotic arm that guarantees safe trajectory tracking while avoiding obstacles in its workspace.
