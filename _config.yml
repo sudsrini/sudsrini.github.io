@@ -184,7 +184,6 @@ plugins:
 
 include:
   - _projects
-  - reports
 
 
 # Exclude from processing.
