@@ -2,7 +2,7 @@
 order: 3
 layout: post
 title: Ashok Leyland 
-description: Worked on two key projects to improve commercial vehicle manufacturing processes - focused on assembly line process optimization and quality improvements. 
+description: As an intern, I worked on two key projects to improve commercial vehicle manufacturing processes - focused on assembly line process optimization and quality improvements. 
 
 skills:
     - Process Optimization
