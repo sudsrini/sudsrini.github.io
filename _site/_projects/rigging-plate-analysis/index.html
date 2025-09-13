@@ -99,33 +99,31 @@
     <div class="summary">
         
        
-        <img src="/experience/rane-trw/rane.jpg" alt="Rane TRW Steering Systems image">
+        <img src="/projects/rigging-plate-analysis/rigging-plate.jpg" alt="Analysis of Rigging Plate image">
         
         <div class="title-header">
-            <h1>Rane TRW Steering Systems</h1>
+            <h1>Analysis of Rigging Plate</h1>
         </div>
         
         <div class="project-description">
             <h2>Summary</h2>
-            <p>As an intern, focus was on optimizing the drop-arm painting process.Achieved significant improvements in production efficiency and output through process analysis and custom equipment design.</p>
+            <p>Detailed structural and stress analysis of rigging plate components for lifting and hoisting applications</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
             <div class="skills-list">
                 
-                <span class="skill">Time study analysis</span>    
+                <span class="skill">ANSYS Mechanical</span>    
                 
-                <span class="skill">Process optimization</span>    
+                <span class="skill">Stress Analysis</span>    
                 
-                <span class="skill">Design Engineering</span>    
+                <span class="skill">Mesh Convergence & Validation Studies</span>    
                 
-                <span class="skill">CAD Modeling</span>    
+                <span class="skill">SolidWorks</span>    
                 
-                <span class="skill">Product Validation</span>    
+                <span class="skill">Finite Element Analysis (FEA)</span>    
                 
-                <span class="skill">SolidWorks for CAD design</span>    
-                
-                <span class="skill">On-ground implementation and testing</span>    
+                <span class="skill">Engineering Design</span>    
                 
             </div>
         </div>
@@ -133,33 +131,35 @@
       
     <div class="content">
         <h2 id="objective">Objective</h2>
-<p>Optimize the drop-arm painting process by eliminating inefficiencies and improving workflow to increase production output.</p>
+<p>Evaluate the structural integrity of a steel rigging plate used in rope-access and rescue applications using finite element analysis (FEA). The goal was to determine stress distribution, deformation, and breaking strength while ensuring compliance with the 36 kN strength requirement.</p>
 
 <h2 id="process">Process</h2>
 <ul>
-  <li>Performed a detailed time study to measure cycle times and identify bottlenecks</li>
-  <li>Analyzed non-value-adding activities that reduced throughput</li>
-  <li>Designed and implemented a specialized drying trolley in SolidWorks to streamline the painting workflow</li>
+  <li>Modeled a 10 mm thick steel rigging plate in SolidWorks and imported into ANSYS Mechanical</li>
+  <li>Applied steel properties: E = 190 GPa, ν = 0.3, yield strength = 290 MPa</li>
+  <li>Used quadrilateral dominant meshing with quadratic elements for accuracy around holes and fillets</li>
+  <li>Conducted simulations under applied loads at multiple lugs with fixed boundary support</li>
+  <li>Performed mesh convergence studies:
+    <ul>
+      <li><strong>Global Mesh</strong>: tested multiple element sizes, converged at 0.8 mm</li>
+      <li><strong>Local Refinement</strong>: applied up to 3 levels of refinement near rope lugs to capture stress concentrations</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="results">Results</h2>
 <ul>
-  <li>Increased process efficiency from 2 to 3 cycles per hour</li>
-  <li>Boosted maximum output from 64 to 152 units per hour</li>
-  <li>Eliminated key inefficiencies, creating a smoother and more reliable production line</li>
+  <li>Maximum stress observed: 261 MPa at 36 kN load (below steel yield strength)</li>
+  <li>Breaking strength estimated at ~40 kN, exceeding the 36 kN requirement</li>
+  <li>Maximum deformation = 0.022 mm, negligible relative to geometry size</li>
+  <li>Convergence studies confirmed that a 0.8 mm global mesh with local refinement at stress-critical regions provides optimal accuracy</li>
 </ul>
 
-<h2 id="images">Images</h2>
+<h2 id="conclusion">Conclusion</h2>
+<p>Analysis validated that the rigging plate design meets safety requirements and can be certified for use.</p>
 
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/experience/rane-trw//trolley.jpg" alt="trolley.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
+<h2 id="report">Report</h2>
+<p>📄 <a href="/assets/reports/RiggingPlate_SudarsanSrinivasan.pdf">Click here for full report</a></p>
 
     </div>
 </div>

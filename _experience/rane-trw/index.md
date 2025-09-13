@@ -14,32 +14,19 @@ skills:
 
 main-image: /experience/rane-trw/rane.jpg
 ---
- 
-## Overview
 
-### Objective
+## Objective
+Optimize the drop-arm painting process by eliminating inefficiencies and improving workflow to increase production output.
 
-Improve the efficiency of the drop-arm painting process by identifying bottlenecks and implementing workflow enhancements.
+## Process
+- Performed a detailed time study to measure cycle times and identify bottlenecks
+- Analyzed non-value-adding activities that reduced throughput
+- Designed and implemented a specialized drying trolley in SolidWorks to streamline the painting workflow
 
-### Methodology
-
-- Performed time studies to quantify cycle times and identify inefficiencies
-- 
-- Analyzed non-value-adding activities in the workflow
-- 
-- Proposed and implemented engineering solutions using SolidWorks
-- 
-- Designed specialized equipment to streamline operations
-
-### Results
-
-- Achieved 50% improvement in cycles per hour (from 2 to 3)
-- 
-- Increased maximum hourly output from 64 to 152 units
-- 
-- Successfully eliminated workflow inefficiencies
-- 
-- Enhanced overall operational efficiency
+## Results
+- Increased process efficiency from 2 to 3 cycles per hour
+- Boosted maximum output from 64 to 152 units per hour
+- Eliminated key inefficiencies, creating a smoother and more reliable production line
 
 ## Images
 {% include image-gallery.html images="trolley.jpg" height="400" %}

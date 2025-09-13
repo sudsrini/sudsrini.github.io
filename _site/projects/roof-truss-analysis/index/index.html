@@ -99,33 +99,35 @@
     <div class="summary">
         
        
-        <img src="/experience/rane-trw/rane.jpg" alt="Rane TRW Steering Systems image">
+        <img src="/projects/roof-truss-analysis/roof-truss.jpg" alt="Analysis of Roof Truss image">
         
         <div class="title-header">
-            <h1>Rane TRW Steering Systems</h1>
+            <h1>Analysis of Roof Truss</h1>
         </div>
         
         <div class="project-description">
             <h2>Summary</h2>
-            <p>As an intern, focus was on optimizing the drop-arm painting process.Achieved significant improvements in production efficiency and output through process analysis and custom equipment design.</p>
+            <p>Structural analysis of roof truss systems using finite element methods and engineering principles</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
             <div class="skills-list">
                 
-                <span class="skill">Time study analysis</span>    
+                <span class="skill">ANSYS Mechanical</span>    
                 
-                <span class="skill">Process optimization</span>    
+                <span class="skill">Structural Analysis</span>    
                 
-                <span class="skill">Design Engineering</span>    
+                <span class="skill">Finite Element Analysis (FEA)</span>    
+                
+                <span class="skill">Load Calculation</span>    
+                
+                <span class="skill">Stress Analysis</span>    
+                
+                <span class="skill">Engineering Calculations</span>    
                 
                 <span class="skill">CAD Modeling</span>    
                 
-                <span class="skill">Product Validation</span>    
-                
-                <span class="skill">SolidWorks for CAD design</span>    
-                
-                <span class="skill">On-ground implementation and testing</span>    
+                <span class="skill">Material Properties</span>    
                 
             </div>
         </div>
@@ -133,33 +135,33 @@
       
     <div class="content">
         <h2 id="objective">Objective</h2>
-<p>Optimize the drop-arm painting process by eliminating inefficiencies and improving workflow to increase production output.</p>
+<p>Evaluate the structural performance of a 40 ft × 80 ft roof truss under combined roofing and snow loads using finite element analysis (FEA), and determine whether additional supports are necessary to minimize deflection.</p>
 
 <h2 id="process">Process</h2>
 <ul>
-  <li>Performed a detailed time study to measure cycle times and identify bottlenecks</li>
-  <li>Analyzed non-value-adding activities that reduced throughput</li>
-  <li>Designed and implemented a specialized drying trolley in SolidWorks to streamline the painting workflow</li>
+  <li>Modeled a 2D truss structure representing one of eight assemblies in the roof system</li>
+  <li>Applied material properties of Western White Pine (E = 10 GPa, ν = 0.3)</li>
+  <li>Defined truss elements with a mesh of 13 elements and 21 nodes</li>
+  <li>Distributed a uniform load of 150 lbf/ft² (roofing materials + snow) across trusses, resolving into force components</li>
+  <li>Simulated two support configurations:
+    <ul>
+      <li><strong>Config 1</strong>: Fixed supports only at truss ends</li>
+      <li><strong>Config 2</strong>: Additional central vertical support at the bottom chord</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="results">Results</h2>
 <ul>
-  <li>Increased process efficiency from 2 to 3 cycles per hour</li>
-  <li>Boosted maximum output from 64 to 152 units per hour</li>
-  <li>Eliminated key inefficiencies, creating a smoother and more reliable production line</li>
+  <li><strong>Config 1</strong>: Maximum vertical deflection = 3.13 inches at mid-span → excessive sagging risk</li>
+  <li><strong>Config 2</strong>: Maximum vertical deflection reduced to 0.75 inches (76% improvement)</li>
 </ul>
 
-<h2 id="images">Images</h2>
+<h2 id="recommendation">Recommendation</h2>
+<p>Recommended adding a central vertical support to ensure stability, reduce long-term sagging, and enhance load distribution without major material increase.</p>
 
-<div class="image-gallery" style="--gallery-height: 400px;">
-  
-      
-      
-          
-          <img src="/experience/rane-trw//trolley.jpg" alt="trolley.jpg" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');" />
-      
-  
-</div>
+<h2 id="report">Report</h2>
+<p>📄 <a href="/assets/reports/RoofTruss_SudarsanSrinivasan.pdf">Click here for full report</a></p>
 
     </div>
 </div>
