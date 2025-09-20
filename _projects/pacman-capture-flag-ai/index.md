@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 4
 layout: post
 title: Pacman Capture the Flag AI Contest
 description: Design and implement intelligent agents to compete in a multi-player "Capture the Flag" variant of Pacman with offensive and defensive strategies as part of coursework

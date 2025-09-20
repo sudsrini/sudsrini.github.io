@@ -23,18 +23,19 @@ main-image: /experience/bajaj-auto/bajaj.jpg
 ---
 
 ## Summary
-As a Mechanical Design Engineer at Bajaj Auto Limited, I led the design and validation of engine components (crankcases, covers, gaskets) for high-volume 2W/3W platforms. My work spanned CAD automation, finite element analysis, cost optimization (VAVE), and cross-functional quality improvements, enabling lighter, more reliable, and cost-efficient designs adopted across multiple platforms.
+As a Mechanical Design Engineer at Bajaj Auto Limited, I led the design of engine components - crankcases, covers & gaskets, for high-volume 
+2-wheelers (motorcycles) and 3-wheelers (auto rickshaws/tuk-tuks). My work spanned mechanical design, finite element analysis, continuous product improvement initiatives and cross-functional quality improvements.
 
-
-## Process / Key Projects
+## Key Projects
 - **Engine Component Development** – Designed crankcases, covers, and gaskets using Siemens NX, ensuring structural integrity and manufacturability
+- **FEA & Testing** – Ran 20+ structural and sealing FEA simulations; validated with endurance tests
 - **CAD Automation** – Created NXOpen scripts that automated gasket modeling/validation, cutting design cycle time by 76%
-- **FEA & Testing** – Ran 20+ structural and sealing FEA simulations; validated with endurance and pressure tests
 - **Value Analysis & Engineering** – Reduced clutch cover weight by 11%, optimized jet nozzle design, and consolidated parts, saving $15,000+ annually
 - **Quality Engineering** – Conducted RCA on 100+ in-house & 10+ field failures; implemented corrective actions and updated DFMEA/DVP
 - **Collaboration with Global OEMs** – Delivered components for Triumph and KTM, meeting international standards
 
 ## Results
+- Successfully delivered designs on time
 - Achieved 11% weight reduction in clutch cover (110 g saved)
 - Cut gasket design validation time by 76% through automation
 - Delivered annual cost savings of $15,000+ via VAVE initiatives
@@ -42,6 +43,6 @@ As a Mechanical Design Engineer at Bajaj Auto Limited, I led the design and vali
 
 
 ## Images
-{% include image-gallery.html images="bajaj1.jpg" height="400" %}
-{% include image-gallery.html images="bajaj0.jpg" height="400" %}
+{% include image-gallery.html images="bajaj1.jpg" height="300" %}
+{% include image-gallery.html images="bajaj0.jpg" height="300" %}
 

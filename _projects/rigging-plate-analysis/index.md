@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 2
 layout: post
 title: Analysis of Rigging Plate
 description: Detailed structural and stress analysis of rigging plate components for lifting and hoisting applications
