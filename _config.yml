@@ -13,7 +13,7 @@ title: Sudarsan Srinivasan's Portfolio # This is what shows up in the tab of the
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Mechanical Design Engineer exploring the future of robotics and automation
+headline: Mechanical & Product Design Engineer focused on consumer hardware
 description: >- # dont remove this line. this will ignore all new lines until the next section
   
   
@@ -25,7 +25,7 @@ profile_image: assets/images/profile-image/SudarsanSrinivasan.jpg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: /assets/resume/SudarsanSrinivasan_Resume.pdf
+resume-url: /assets/resume/SudarsanSrinivasan_Product Design Engineer.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.

@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 layout: post
 title: Analysis of Roof Truss
 description: Structural analysis of roof truss systems using finite element methods and engineering principles
