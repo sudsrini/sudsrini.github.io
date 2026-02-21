@@ -1,0 +1,18 @@
+# Single source for main site navigation. Used by navbar and footer.
+# Edit links here; they appear everywhere automatically.
+# Use config_key to pull URL from _config.yml (e.g. resume-url).
+
+main:
+  - label: Home
+    url: /
+  - label: About
+    url: /about.html
+  - label: Work Experience
+    url: /experience
+    hash: experience
+  - label: Projects
+    url: /projects/
+    hash: projects
+  - label: Resume
+    config_key: resume-url
+    external: true

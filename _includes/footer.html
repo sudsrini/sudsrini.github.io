@@ -1,21 +1,17 @@
 <footer>
     <div class="footer-content">
         <div class="links">
-            <a href="/">
-                <span>Home</span>
-            </a>
-            <a href="/about.html">
-                <span>About</span>
-            </a>
-            <a href="/experience/">
-                <span>Experience</span>
-            </a>
-            <a href="/projects/">
-                <span>Projects</span>
-            </a>
-            <a href="/assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <span>Resume</span>
-            </a>
+            {% for item in site.data.navigation.main %}
+            {% if item.config_key %}
+                <a href="{{ site[item.config_key] | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                    <span>{{ item.label }}</span>
+                </a>
+            {% else %}
+                <a href="{{ item.url | relative_url }}">
+                    <span>{{ item.label }}</span>
+                </a>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
     <div class="license">

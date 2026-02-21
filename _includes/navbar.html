@@ -5,30 +5,21 @@
 
     <div class="nav-right">
         <div class="desktop-nav">
-            <a href="/">
-                <span>Home</span>
-            </a>
-            <a href="/about.html">
-                <span>About</span>
-            </a>
-            {% if page.url == "/" %}
-                <a href="#experience">
-                    <span>Work Experience</span>
+            {% for item in site.data.navigation.main %}
+            {% if item.config_key %}
+                <a href="{{ site[item.config_key] | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                    <span>{{ item.label }}</span>
                 </a>
-                <a href="#projects">
-                    <span>Projects</span>
+            {% elsif page.url == "/" and item.hash %}
+                <a href="#{{ item.hash }}">
+                    <span>{{ item.label }}</span>
                 </a>
             {% else %}
-                <a href="/experience">
-                    <span>Work Experience</span>
-                </a>
-                <a href="/projects/">
-                    <span>Projects</span>
+                <a href="{{ item.url | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                    <span>{{ item.label }}</span>
                 </a>
             {% endif %}
-            <a href="/assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <span>Resume</span>
-            </a>
+            {% endfor %}
         </div>
 
         <!-- Desktop Theme Toggle -->
@@ -46,30 +37,21 @@
         </button>
 
         <div class="mobile-nav">
-            <a href="/">
-                <span>Home</span>
-            </a>
-            <a href="/about.html">
-                <span>About</span>
-            </a>
-            {% if page.url == "/" %}
-                <a href="#experience">
-                    <span>Work Experience</span>
+            {% for item in site.data.navigation.main %}
+            {% if item.config_key %}
+                <a href="{{ site[item.config_key] | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                    <span>{{ item.label }}</span>
                 </a>
-                <a href="#projects">
-                    <span>Projects</span>
+            {% elsif page.url == "/" and item.hash %}
+                <a href="#{{ item.hash }}">
+                    <span>{{ item.label }}</span>
                 </a>
             {% else %}
-                <a href="/#experience">
-                    <span>Work Experience</span>
-                </a>
-                <a href="/projects/">
-                    <span>Projects</span>
+                <a href="{{ item.url | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                    <span>{{ item.label }}</span>
                 </a>
             {% endif %}
-            <a href="/assets/resume/SudarsanSrinivasan_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <span>Resume</span>
-            </a>
+            {% endfor %}
 
             <!-- Mobile Theme Toggle -->
             <div class="theme-toggle-container mobile-toggle">
