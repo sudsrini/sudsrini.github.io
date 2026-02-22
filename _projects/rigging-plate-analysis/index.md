@@ -10,7 +10,7 @@ skills:
   - SolidWorks
   - Finite Element Analysis (FEA)
   - Engineering Design
-main-image: /projects/rigging-plate-analysis/rigging-plate.jpg
+main-image: /projects/rigging-plate-analysis/riggingplate.png
 report-url: /assets/reports/rigging-plate-analysis-report.pdf
 ---
 
