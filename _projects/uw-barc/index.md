@@ -2,7 +2,7 @@
 order: 1
 layout: post
 title: Boeing Advanced Research Collaboration @ UW
-description: Led mechanical architecture and subsystem integration for an autonomous cleaning robot for NDI water tank cells.
+description: Led mechanical architecture and subsystem integration for an autonomous cleaning robot designed to reduce manual downtime in Boeing's NDI water tank cells, delivering a working prototype that demonstrated autonomous movement and validated the core mechanical architecture.
 skills:
     - Mechanical architecture
     - CAD Modeling (Solidworks)
@@ -19,25 +19,21 @@ main-image: /projects/uw-barc/uw-barc.jpg
 
 ## Overview
 
-As part of the Boeing Advanced Research Collaboration (BARC), I led the mechanical architecture and subsystem integration of an autonomous cleaning robot for non-destructive inspection (NDI) water cells. These inspection tanks currently require 2–3 days of manual cleaning downtime. Our objective is to develop a compact, fully autonomous robotic system that improves operational availability and reduces maintenance disruption.
+As part of the Boeing Advanced Research Collaboration (BARC) at the University of Washington, I led the mechanical design of an autonomous cleaning robot for non-destructive inspection (NDI) water cells. These tanks currently require 2-3 days of manual cleaning downtime per cycle. The goal was a compact, fully autonomous system that could operate within tight tank geometries and reduce that maintenance burden.
 
-I owned the robot’s mechanical architecture, including chassis packaging, drivetrain integration, and cleaning subsystem design. The system operates within tight tank geometries and balances compactness, durability, manufacturability, and environmental sealing.
+I served as the mechanical lead across a two-person mechanical team, guiding architecture decisions, subsystem integration, and prototype development from concept through a working prototype build.
 
 ## Key Contributions
 
 ### Mechanical Architecture & Integration
 
-- Integrated off-the-shelf components into a cohesive robotic system, building full CAD assemblies to validate packaging, alignment, and serviceability.
-
-- Designed a modular, low-profile chassis integrating drivetrain, power systems, and a combined rotating brush + squeegee cleaning mechanism.
-
-- Implemented mecanum drive architecture to enable omnidirectional maneuvering in constrained tank environments.
-
-- Generated fabrication-ready drawings and validated structural integrity through hand calculations and ANSYS FEA.
-
-- Designed for IP-rated environmental protection through material selection and sealing strategy.
-
-- Iterated through multiple prototype builds, refining layout and component trade-offs based on performance testing.
+- Led mechanical architecture of the robot, owning chassis design, component packaging, and enclosure development within tight height, weight, and wet environment constraints
+- Generated and evaluated multiple cleaning system concepts, down-selecting through a Pugh matrix to identify the most feasible solution for wet, low-maintenance operation
+- Designed a modular, low-profile chassis integrating drivetrain, power systems, and a combined rotating brush and squeegee cleaning mechanism
+- Integrated off-the-shelf components into a cohesive robotic system, building full CAD assemblies to validate packaging, alignment, and serviceability
+- Designed for IP-rated environmental protection through material selection and sealing strategy
+- Iterated through multiple prototype builds, refining layout and component trade-offs based on performance testing
+- Delivered a working prototype that demonstrated autonomous movement and validated the core mechanical architecture
 
 <!-- ## Images
 {% include image-gallery.html images="uw-barc.jpg" height="400" %} -->

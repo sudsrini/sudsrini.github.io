@@ -2,7 +2,7 @@
 order: 0
 layout: post
 title: SharkNinja
-description: As a Mechanical engineering Co-op, I am contributing to the New Product Development team of the Frozen Treats team
+description: At SharkNinja's NPD team, I contribute to bringing a next-generation frozen treats product line to market -- working across design, test innovation, and cross-functional collaboration from early-stage development through validation.
 skills:
   - Product Design
   - Mechanical Design
@@ -14,12 +14,12 @@ skills:
 main-image: /experience/sharkninja/sharkninja.png
 ---
 
-
 ## Highlights
-- Contributing to new consumer product design for frozen treats by optimizing performance of next-generation slush machines using statistical analysis
-and hands-on prototyping
-- Conducting root cause and failure analysis on performance and reliability issues, building and testing design iterations to improve product robustness
-and user experience
+- Identified a reliability issue in a key product component, proposed and prototyped a design fix, and validated the solution through structured reliability testing -- closing the loop from problem identification to confirmed resolution
+- Devised a condensation validation approach using fine mist spray to simulate surface moisture buildup, replacing a humidity chamber setup and cutting test cycle time by ~80%
+- Built Excel VBA macros to automate processing of instrumented test data from slush machines, reducing manual effort and enabling faster interpretation of performance trends
+- Iterated on prototype builds across hardware and software versions, benchmarking performance against KPIs and recommending design or algorithm adjustments
+- Collaborated across test kitchen, controls, and advanced development teams, coordinating with counterparts in China to align testing and development efforts
 
 ## Images
 
