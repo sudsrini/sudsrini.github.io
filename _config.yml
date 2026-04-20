@@ -49,7 +49,6 @@ skills:
     tools:
       - Siemens NX
       - SolidWorks (Certified SolidWorks Professional)
-      - CATIA V5
       - AutoCAD
       - ANSYS Mechanical
       - HyperWorks
@@ -88,7 +87,6 @@ skills:
 
   - category: Data & Analysis Tools
     tools:
-      - Tableau
       - Microsoft Excel
       - Data Visualization
       - Root Cause Analysis (8D, Pareto, Ishikawa)
@@ -98,7 +96,6 @@ skills:
       - Siemens Teamcenter PLM
       - Microsoft Office Suite
       - Cross-functional Teamwork
-      - Supplier Communication
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
