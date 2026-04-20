@@ -2,7 +2,7 @@
 order: 0
 layout: post
 title: SharkNinja
-description: At SharkNinja's NPD team, I contribute to bringing a next-generation frozen treats product line to market -- working across design, test innovation, and cross-functional collaboration from early-stage development through validation.
+description: At SharkNinja's NPD team, I contribute to bringing a next-generation frozen treats product line to market. My work spans design, test innovation, and cross-functional collaboration from early-stage development through validation.
 skills:
   - Product Design
   - Mechanical Design
@@ -24,8 +24,8 @@ main-image: /experience/sharkninja/sharkninja.png
 ## Images
 
 
-{% include image-gallery.html images="Sharkninja.jpg, Sharkninja1.jpg" height="400" %}
-
+{% include image-gallery.html images="SharkNinja.jpg" height="400" %}
+{% include image-gallery.html images="SharkNinja1.jpg" height="400" %}
 <!--
 If you add images under `_experience/sharkninja/`, you can show them like this:
 {% include image-gallery.html images="image1.jpg,image2.jpg" height="350" %}
