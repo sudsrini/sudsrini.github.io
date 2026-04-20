@@ -24,7 +24,8 @@ main-image: /experience/sharkninja/sharkninja.png
 ## Images
 
 
-{% include image-gallery.html images="sharkninja.jpg, sharkninja1.jpg" height="400" %}
+{% include image-gallery.html images="SharkNinja.jpg" height="300" %}
+{% include image-gallery.html images="SharkNinja1.jpg" height="300" %}
 
 <!--
 If you add images under `_experience/sharkninja/`, you can show them like this:
