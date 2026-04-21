@@ -127,7 +127,7 @@
     <div class="summary">
         
        
-        <img src="/projects/roof-truss-analysis/roof-truss.jpg" alt="Analysis of Roof Truss image">
+        <img src="/projects/roof-truss-analysis/rooftruss.png" alt="Analysis of Roof Truss image">
         
         <div class="title-header">
             <h1>Analysis of Roof Truss</h1>
@@ -135,7 +135,7 @@
         
         <div class="project-description">
             <h2>Summary</h2>
-            <p>Structural analysis of roof truss systems using finite element methods and engineering principles</p>
+            <p>Evaluated structural performance of a 40 ft x 80 ft roof truss under combined roofing and snow loads using FEA. Compared two support configurations and recommended adding a central vertical support, reducing maximum deflection by 76% from 3.13 inches to 0.75 inches.</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
@@ -143,19 +143,15 @@
                 
                 <span class="skill">ANSYS Mechanical</span>    
                 
-                <span class="skill">Structural Analysis</span>    
-                
                 <span class="skill">Finite Element Analysis (FEA)</span>    
+                
+                <span class="skill">Structural Analysis</span>    
                 
                 <span class="skill">Load Calculation</span>    
                 
-                <span class="skill">Stress Analysis</span>    
+                <span class="skill">Truss Element Modeling</span>    
                 
-                <span class="skill">Engineering Calculations</span>    
-                
-                <span class="skill">CAD Modeling</span>    
-                
-                <span class="skill">Material Properties</span>    
+                <span class="skill">Hand Calculations</span>    
                 
             </div>
         </div>
@@ -163,30 +159,65 @@
       
     <div class="content">
         <h2 id="objective">Objective</h2>
-<p>Evaluate the structural performance of a 40 ft × 80 ft roof truss under combined roofing and snow loads using finite element analysis (FEA), and determine whether additional supports are necessary to minimize deflection.</p>
+<p>Determine whether a 40 ft x 80 ft roof truss structure requires additional support under combined roofing and snow loads of 150 lbf/ft2, and quantify the deflection improvement if an additional support is added.</p>
 
 <h2 id="process">Process</h2>
 <ul>
-  <li>Modeled a 2D truss structure representing one of eight assemblies in the roof system</li>
-  <li>Applied material properties of Western White Pine (E = 10 GPa, ν = 0.3)</li>
-  <li>Defined truss elements with a mesh of 13 elements and 21 nodes</li>
-  <li>Distributed a uniform load of 150 lbf/ft² (roofing materials + snow) across trusses, resolving into force components</li>
-  <li>Simulated two support configurations:
+  <li>Modeled a 2D truss structure in ANSYS representing one of eight assemblies in the roof system. Material: Western White Pine (E = 10 GPa). Element type: truss elements with one element per member to ensure equilibrium at each node</li>
+  <li>Calculated total load from roofing materials and snow across the sloped surface – 150 lbf/ft2 distributed across 8 trusses, resolving into force components at each top chord node (Fx = 30,000 lbf, Fy = -15,000 lbf per side)</li>
+  <li>Simulated two support configurations: Note: Load distribution and number of truss assemblies were inferred from the problem schematic. Results are valid within these assumptions.
     <ul>
-      <li><strong>Config 1</strong>: Fixed supports only at truss ends</li>
-      <li><strong>Config 2</strong>: Additional central vertical support at the bottom chord</li>
+      <li>Config 1: Fixed supports at both ends of the bottom chord only</li>
     </ul>
   </li>
 </ul>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
+  <figure style="margin: 0; width: fit-content; text-align: center;">
+    <img src="/projects/roof-truss-analysis/7.png" alt="Boundary conditions, configuration 1" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 6px;">Config 1 with end supports only </figcaption>
+  </figure>
+  </div>
+
+<ul>
+  <li>Config 2: Fixed supports at both ends plus an additional vertical support at the center of the bottom chord</li>
+</ul>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
+  <figure style="margin: 0; width: fit-content; text-align: center;">
+    <img src="/projects/roof-truss-analysis/8.png" alt="Boundary conditions, configuration 2" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 6px;"></figcaption>
+  </figure>
+</div>
+<p style="font-size: 0.95em; color: #666; margin-top: 8px; text-align: center;">Config 2 with additional central support </p>
 
 <h2 id="results">Results</h2>
 <ul>
-  <li><strong>Config 1</strong>: Maximum vertical deflection = 3.13 inches at mid-span → excessive sagging risk</li>
-  <li><strong>Config 2</strong>: Maximum vertical deflection reduced to 0.75 inches (76% improvement)</li>
+  <li>Config 1: Maximum vertical deflection of 3.13 inches at mid-span – insufficient restraint causing excessive sagging under load</li>
 </ul>
 
-<h2 id="recommendation">Recommendation</h2>
-<p>Recommended adding a central vertical support to ensure stability, reduce long-term sagging, and enhance load distribution without major material increase.</p>
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/roof-truss-analysis/9a.png" alt="Config 1 total deformation" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 700px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Config 1 total deformation (4x scale), maximum deflection of 3.13 inches at center of bottom chord</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>Config 2: Maximum vertical deflection reduced to 0.75 inches – a 76% reduction</li>
+</ul>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/roof-truss-analysis/10a.png" alt="Config 2 total deformation" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 700px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Config 2 total deformation (4x scale), maximum deflection reduced to 0.74 inches with central support added</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>X-direction deflection also reduced from 0.78 inches to 0.33 inches at load application points</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The original end-only support configuration is inadequate for the expected roof and snow loads. Adding a central vertical support at the bottom chord mid-span reduces deflection by 76% and significantly improves long-term structural stability without a major increase in material or complexity.</p>
 
 <h2 id="report">Report</h2>
 <p>📄 <a href="/assets/reports/RoofTruss_SudarsanSrinivasan.pdf">Click here for full report</a></p>

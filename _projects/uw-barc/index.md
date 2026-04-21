@@ -27,13 +27,15 @@ I served as the mechanical lead across a two-person mechanical team, guiding arc
 
 ### Mechanical Architecture & Integration
 
-- Led mechanical architecture of the robot, owning chassis design, component packaging, and enclosure development within tight height, weight, and wet environment constraints
-- Generated and evaluated multiple cleaning system concepts, down-selecting through a Pugh matrix to identify the most feasible solution for wet, low-maintenance operation
-- Designed a modular, low-profile chassis integrating drivetrain, power systems, and a combined rotating brush and squeegee cleaning mechanism
-- Integrated off-the-shelf components into a cohesive robotic system, building full CAD assemblies to validate packaging, alignment, and serviceability
-- Designed for IP-rated environmental protection through material selection and sealing strategy
-- Iterated through multiple prototype builds, refining layout and component trade-offs based on performance testing
-- Delivered a working prototype that demonstrated autonomous movement and validated the core mechanical architecture
+<ul style="font-size: 1rem; line-height: 1.5; margin-top: 0.5rem;">
+  <li>Led mechanical architecture of the robot, owning chassis design, component packaging, and enclosure development within tight height, weight, and wet environment constraints</li>
+  <li>Generated and evaluated multiple cleaning system concepts, down-selecting through a Pugh matrix to identify the most feasible solution for wet, low-maintenance operation</li>
+  <li>Designed a modular, low-profile chassis integrating drivetrain, power systems, and a combined rotating brush and squeegee cleaning mechanism</li>
+  <li>Integrated off-the-shelf components into a cohesive robotic system, building full CAD assemblies to validate packaging, alignment, and serviceability</li>
+  <li>Designed for IP-rated environmental protection through material selection and sealing strategy</li>
+  <li>Iterated through multiple prototype builds, refining layout and component trade-offs based on performance testing</li>
+  <li>Delivered a working prototype that demonstrated autonomous movement and validated the core mechanical architecture</li>
+</ul>
 
 <!-- ## Images
 {% include image-gallery.html images="uw-barc.jpg" height="400" %} -->

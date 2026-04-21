@@ -8,16 +8,15 @@ skills:
     - Mechanical Design
     - Siemens NX
     - GD&T
-    - Die casting
-    - Injection molding
-    - Machining
-    - DFM/DFA 
-    - FEA (ANSYS, HyperView)
+    - Die Casting
+    - Injection Molding
+    - DFM/DFA
+    - FEA (ANSYS, HyperWorks)
+    - DFMEA
+    - DVP
     - 8D Root Cause Analysis
-    - DFMEA, DVP, DRBFM
-    - Cross functional Collaboration
     - NXOpen Automation
-    - VAVE, Cost optimization
+    - VAVE
 
 main-image: /experience/bajaj-auto/bajaj.jpg
 ---

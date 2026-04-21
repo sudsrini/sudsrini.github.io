@@ -13,7 +13,7 @@ title: Sudarsan Srinivasan's Portfolio # This is what shows up in the tab of the
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Product Design Engineer | Bridging design, manufacturing, and validation
+headline: Mechanical Engineer | Bridging design, manufacturing, and validation
 description: >- # dont remove this line. this will ignore all new lines until the next section
   
   
@@ -48,13 +48,11 @@ skills:
   - category: CAD & Simulation
     tools:
       - Siemens NX
-      - SolidWorks (Certified SolidWorks Professional)
-      - AutoCAD
+      - SolidWorks (CSWP)
       - ANSYS Mechanical
       - HyperWorks
-      - 2D/3D Modeling
       - GD&T
-      - Tolerance Analysis
+      - Tolerance Stack-up Analysis
 
   - category: Design & Manufacturing
     tools:
@@ -62,40 +60,31 @@ skills:
       - DFMEA
       - Design Validation (DVP)
       - Rapid Prototyping
-      - Machining
       - 3D Printing (FDM)
       - Die Casting (Aluminum)
       - Injection Molding (Plastic)
 
   - category: Programming & Automation
     tools:
+      - NXOpen Automation
       - MATLAB
       - Simulink
       - Python
       - C++
-      - ROS
-      - PLC Programming
       - Control Systems
-      - System Integration
+      - VBA & Macro Development
 
-  - category: Electrical & Controls
+  - category: Data & Analysis
     tools:
-      - Sensor Integration
-      - Pneumatic Systems
-      - Microcontrollers (Raspberry Pi, Arduino)
-      - Mechatronics Systems
-
-  - category: Data & Analysis Tools
-    tools:
-      - Microsoft Excel
-      - Data Visualization
+      - DOE
       - Root Cause Analysis (8D, Pareto, Ishikawa)
+      - Data Analysis
 
   - category: Collaboration & Tools
     tools:
       - Siemens Teamcenter PLM
       - Microsoft Office Suite
-      - Cross-functional Teamwork
+ 
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.

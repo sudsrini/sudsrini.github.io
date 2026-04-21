@@ -135,7 +135,7 @@
         
         <div class="project-description">
             <h2>Summary</h2>
-            <p>Detailed structural and stress analysis of rigging plate components for lifting and hoisting applications</p>
+            <p>Performed structural FEA on a steel rigging plate for rope-access and rescue applications, validating compliance with a 36 kN certification strength requirement. Conducted global and local mesh convergence studies to ensure result accuracy. Estimated breaking strength of ~40 kN exceeded the requirement.</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
@@ -145,13 +145,13 @@
                 
                 <span class="skill">Stress Analysis</span>    
                 
-                <span class="skill">Mesh Convergence & Validation Studies</span>    
+                <span class="skill">Mesh Convergence Studies</span>    
                 
                 <span class="skill">SolidWorks</span>    
                 
                 <span class="skill">Finite Element Analysis (FEA)</span>    
                 
-                <span class="skill">Engineering Design</span>    
+                <span class="skill">2D Plane Stress Modeling</span>    
                 
             </div>
         </div>
@@ -159,32 +159,70 @@
       
     <div class="content">
         <h2 id="objective">Objective</h2>
-<p>Evaluate the structural integrity of a steel rigging plate used in rope-access and rescue applications using finite element analysis (FEA). The goal was to determine stress distribution, deformation, and breaking strength while ensuring compliance with the 36 kN strength requirement.</p>
+<p>Evaluate the structural integrity of a steel rigging plate used in rope-access and rescue applications using FEA. Determine stress distribution, deformation, and breaking strength while verifying compliance with the 36 kN certification requirement.</p>
 
 <h2 id="process">Process</h2>
 <ul>
-  <li>Modeled a 10 mm thick steel rigging plate in SolidWorks and imported into ANSYS Mechanical</li>
-  <li>Applied steel properties: E = 190 GPa, ν = 0.3, yield strength = 290 MPa</li>
-  <li>Used quadrilateral dominant meshing with quadratic elements for accuracy around holes and fillets</li>
-  <li>Conducted simulations under applied loads at multiple lugs with fixed boundary support</li>
-  <li>Performed mesh convergence studies:
-    <ul>
-      <li><strong>Global Mesh</strong>: tested multiple element sizes, converged at 0.8 mm</li>
-      <li><strong>Local Refinement</strong>: applied up to 3 levels of refinement near rope lugs to capture stress concentrations</li>
-    </ul>
-  </li>
+  <li>Modeled the rigging plate as a 2D plane stress system in SolidWorks and imported into ANSYS Mechanical. Material properties: E = 190 GPa, yield strength = 290 MPa</li>
+  <li>Applied quadrilateral dominant meshing with quadratic elements – chosen because 8-node quads capture bending and stress gradients at holes and fillets more accurately than linear elements</li>
+  <li>Ran global mesh convergence study across 9 element sizes from default to 0.8 mm – convergence confirmed at 0.8 mm with less than 1% change between successive refinements</li>
+  <li>Applied local mesh refinement up to level 3 at rope lug holes to capture stress concentrations at geometric discontinuities</li>
 </ul>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
+  <figure style="margin: 0; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/4a.png" alt="Mesh configuration figure 4a" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 6px;">Figure 4a</figcaption>
+  </figure>
+  <figure style="margin: 0; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/4b.png" alt="Mesh configuration figure 4b" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 6px;">Figure 4b</figcaption>
+  </figure>
+  <figure style="margin: 0; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/4c.png" alt="Mesh configuration figure 4c" style="height: 220px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: 6px;">Figure 4c</figcaption>
+  </figure>
+</div>
+<p style="font-size: 0.95em; color: #666; margin-top: 8px; text-align: center;">Mesh configurations, from coarse (1 mm global) to refined (0.8 mm global with level 3 local refinement at rope lug holes)</p>
+
+<ul>
+  <li>Applied boundary conditions: fixed support at top edge, three rope lug loads totaling 36 kN – two at 45 degree angles and one vertical</li>
+</ul>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/5.png" alt="Boundary conditions and load setup" style="height: 250px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 700px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Boundary conditions and load setup, fixed support at top edge and three rope lug loads applied at 36 kN total</figcaption>
+  </figure>
+</div>
 
 <h2 id="results">Results</h2>
 <ul>
-  <li>Maximum stress observed: 261 MPa at 36 kN load (below steel yield strength)</li>
-  <li>Breaking strength estimated at ~40 kN, exceeding the 36 kN requirement</li>
-  <li>Maximum deformation = 0.022 mm, negligible relative to geometry size</li>
-  <li>Convergence studies confirmed that a 0.8 mm global mesh with local refinement at stress-critical regions provides optimal accuracy</li>
+  <li>Maximum von Mises stress: 261 MPa at 36 kN load – below the yield strength of 290 MPa</li>
 </ul>
 
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/9b.png" alt="Von Mises stress distribution at 36 kN load" style="height: 300px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 700px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Von Mises stress distribution at 36 kN load, maximum stress of 261 MPa concentrated at rope lug holes, below yield strength of 290 MPa</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>Breaking strength estimated at ~40 kN, exceeding the 36 kN certification requirement</li>
+  <li>Maximum deformation: 0.022 mm – negligible relative to geometry</li>
+  <li>Local refinement revealed stress concentrations at rope lug holes approaching yield. Adjacent node stresses used for a more realistic assessment given stress singularities at sharp edges</li>
+</ul>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/rigging-plate-analysis/13.png" alt="Stress comparison between global mesh and local refinement" style="height: 300px; width: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 700px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Stress comparison between global mesh (257 MPa) and global mesh with local refinement (307 MPa), where local refinement captures higher stress concentrations at geometric discontinuities</figcaption>
+  </figure>
+</div>
+
 <h2 id="conclusion">Conclusion</h2>
-<p>Analysis validated that the rigging plate design meets safety requirements and can be certified for use.</p>
+<p>The rigging plate design meets the 36 kN certification strength requirement. Local stress concentrations at rope lug holes suggest that fillet radius adjustments could improve safety margins and long-term fatigue performance.</p>
 
 <h2 id="report">Report</h2>
 <p>📄 <a href="/assets/reports/RiggingPlate_SudarsanSrinivasan.pdf">Click here for full report</a></p>
