@@ -127,7 +127,7 @@
     <div class="summary">
         
        
-        <img src="/projects/pacman-capture-flag-ai/pacman-ai.jpg" alt="Pacman Capture the Flag AI Contest image">
+        <img src="/projects/pacman-capture-flag-ai/pacman.png" alt="Pacman Capture the Flag AI Contest image">
         
         <div class="title-header">
             <h1>Pacman Capture the Flag AI Contest</h1>
@@ -135,7 +135,7 @@
         
         <div class="project-description">
             <h2>Summary</h2>
-            <p>Design and implement intelligent agents to compete in a multi-player "Capture the Flag" variant of Pacman with offensive and defensive strategies as part of coursework</p>
+            <p>Designed and implemented intelligent agents for a multi-player Capture the Flag variant of Pacman as part of a class-wide tournament at the University of Washington. Finished 7th out of 15 teams in a round-robin competition across fixed and random layouts.</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
@@ -145,15 +145,13 @@
                 
                 <span class="skill">Object-Oriented Programming</span>    
                 
-                <span class="skill">Search Algorithms & Pathfinding</span>    
+                <span class="skill">Search Algorithms</span>    
                 
                 <span class="skill">Multi-Agent Systems</span>    
                 
-                <span class="skill">Algorithm Design</span>    
-                
-                <span class="skill">Game AI</span>    
-                
                 <span class="skill">Adversarial AI</span>    
+                
+                <span class="skill">Algorithm Design</span>    
                 
                 <span class="skill">Strategy Development</span>    
                 
@@ -163,24 +161,52 @@
       
     <div class="content">
         <h2 id="objective">Objective</h2>
-<p>Design and implement intelligent agents to compete in a multi-player “Capture the Flag” variant of Pacman, where agents must balance offense (collecting food in enemy territory) and defense (guarding home food) under limited and noisy observations.</p>
+<p>Design and implement intelligent agents that balance offense (collecting food in enemy territory) and defense (guarding home food) under limited and noisy opponent observations, competing in a round-robin tournament against 14 other teams.</p>
 
 <h2 id="process">Process</h2>
 <ul>
-  <li>Started from the provided baseline impulse agent, which simply reacted to the nearest food or opponent</li>
-  <li>Modified and extended the logic to make decisions more goal-directed rather than purely reactive</li>
-  <li>Added offensive improvements for safer food collection and return to base</li>
+  <li>Started from the provided baseline reflex agent, which simply reacted to the nearest food or opponent</li>
+  <li>Analyzed the baseline’s weaknesses, including purely reactive behavior with no goal-directed planning</li>
+  <li>Added offensive improvements for safer food collection and smarter return-to-base routing</li>
   <li>Enhanced defensive responses by better tracking and intercepting invading opponents using noisy distance data</li>
-  <li>Tuned agent performance to stay within strict runtime limits (≤3s per move)</li>
+  <li>Tuned agent performance to stay within strict runtime constraints (3 seconds per move, 15 second startup allowance)</li>
 </ul>
 
 <h2 id="results">Results</h2>
 <ul>
-  <li>Achieved 7th place out of 15 teams in the final round-robin competition</li>
+  <li>Finished 7th out of 15 teams in the final round-robin competition, placing in the top half of a competitive field</li>
   <li>Outperformed baseline agents by combining improved offensive routing with smarter defensive play</li>
-  <li>Demonstrated the ability to analyze existing algorithms, identify weaknesses, and engineer stronger strategies</li>
+  <li>Demonstrated ability to analyze existing algorithms, identify weaknesses, and engineer stronger strategies</li>
 </ul>
 
+<h2 id="media">Media</h2>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <video controls="" playsinline="" style="max-width: 100%; width: 760px; height: auto; display: block; margin: 0 auto;">
+      <source src="/projects/pacman-capture-flag-ai/tournament.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="max-width: 760px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Agent gameplay, Capture the Flag tournament, UW CSE415, Autumn 2024</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <video controls="" playsinline="" style="max-width: 100%; width: 760px; height: auto; display: block; margin: 0 auto;">
+      <source src="/projects/pacman-capture-flag-ai/test%20layout.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="max-width: 760px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Test layout gameplay, showcasing agent behavior on an alternate map configuration</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="/projects/pacman-capture-flag-ai/leaderboard.jpg" alt="Tournament leaderboard" style="max-width: 75%; width: 760px; height: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 760px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">Tournament leaderboard, final placement 7th out of 15 teams</figcaption>
+  </figure>
+</div>
 
     </div>
 </div>
