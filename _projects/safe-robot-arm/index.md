@@ -1,5 +1,6 @@
 ---
 order: 5
+archived: true
 layout: post
 title: Safe End-Effector Trajectory Tracking for a 2-DOF Robotic Arm
 description: Designed a CLF-CBF QP controller to ensure safe and stable trajectory tracking under dynamic constraints.

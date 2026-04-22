@@ -5,7 +5,8 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <section id="projects" class="project-grid-section">
     <div class="grid-container">
-        {% assign sorted_projects = site.projects | sort: 'order' %}
+        {% assign visible_projects = site.projects | where_exp: "item", "item.archived != true" %}
+        {% assign sorted_projects = visible_projects | sort: 'order' %}
         {% for item in sorted_projects %}
     <a href="{{ item.url }}" class="project-link">
         <div class="project-card">

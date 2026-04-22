@@ -5,9 +5,13 @@ title: SharkNinja
 description: At SharkNinja's NPD team, I contribute to bringing a next-generation frozen treats product line to market. My work spans design, test innovation, and cross-functional collaboration from early-stage development through validation.
 skills:
   - Product Design
-  - Mechanical Design
   - DFM/DFA
   - Prototyping
+  - Reliability Testing
+  - Root Cause Analysis
+  - DOE
+  - Data Analysis
+  - VBA Automation
   - Cross-functional Collaboration
 
 # Use a placeholder image for now; replace anytime with a SharkNinja logo/image.
@@ -23,9 +27,21 @@ main-image: /experience/sharkninja/sharkninja.png
 
 ## Images
 
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="{{ '/experience/sharkninja/FS301.jpg' | relative_url }}" alt="Slushi exploded diagram" style="max-width: 100%; width: 450px; height: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 450px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;"> FS301 SLUSHi machine</figcaption>
+  </figure>
+</div>
 
-{% include image-gallery.html images="SharkNinja.jpg" height="400" %}
-{% include image-gallery.html images="SharkNinja1.jpg" height="400" %}
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="{{ '/experience/sharkninja/Slushi%20exploded%20diagram.webp' | relative_url }}" alt="Slushi exploded diagram" style="max-width: 100%; width: 450px; height: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 450px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;"> FS301 - exploded view</figcaption>
+  </figure>
+</div>
+
+
 <!--
 If you add images under `_experience/sharkninja/`, you can show them like this:
 {% include image-gallery.html images="image1.jpg,image2.jpg" height="350" %}
