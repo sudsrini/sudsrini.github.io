@@ -2,7 +2,7 @@
 order: 1
 layout: post
 title: The Boring Company
-description: Integration Engineering Intern at The Boring Company (Bastrop, TX), supporting integration of large-scale Rock TBMs across Main Beam systems and a 10,000+ part Vertical Cassette assembly. Bridged design and build by driving critical-path items, resolving subsystem interface issues, and ensuring build readiness in a fast-paced prototype-to-production environment.
+description: Integration Engineering Intern at The Boring Company (Bastrop, TX), supporting integration of large-scale rock TBMs across Main Beam systems and a 10,000+ part Vertical Cassette assembly. Bridged design and build by driving critical-path items, resolving subsystem interface issues, and keeping builds on schedule.
 
 skills:
     - Mechanical System Integration
@@ -18,11 +18,11 @@ main-image: /experience/the-boring-company/boring-company.jpg
 
 ## Project Contributions
 
-- Led integration of ventilation, low-pressure fluid distribution, and gantry systems for TBM main beam refurbishment, ensuring subsystem alignment and build readiness
-- Designed hose and pipe routing, bracket placement, and weld interface strategies from scratch in the absence of prior CAD models
-- Resolved build-blocking issues including incorrect part kitting, routing conflicts, and supply delays to protect critical project timelines
-- Audited and supported integration of a 10,000+ part Vertical Cassette assembly, validating part readiness and resolving engineering discrepancies
-- Improved technician efficiency by organizing build documentation, drawings, and integration workflows to streamline assembly execution
+- Led subsystem integration for MB-1 TBM main beam refurbishment, coordinating across teams to align ventilation, low-pressure fluid distribution, and gantry systems
+- Developed hose and pipe routing, bracket placement, and weld interface strategies on the floor alongside experienced technicians, in the absence of prior CAD models
+- Resolved build-blocking issues including part kitting errors, routing conflicts, and supply delays to keep builds on schedule
+- Supported integration of a 2,000+ part sub-assembly within the 10,000+ part Vertical Cassette over two months, validating part readiness and resolving engineering discrepancies
+- Organized build documentation, drawings, and integration workflows to improve technician efficiency on the floor
 
 # Images
 
