@@ -30,8 +30,15 @@ main-image: /experience/sharkninja/sharkninja.png
 
 <div style="text-align: center;">
   <figure style="margin: 12px auto; width: fit-content; text-align: center;">
-    <img src="{{ '/experience/sharkninja/FS301.jpg' | relative_url }}" alt="Slushi exploded diagram" style="max-width: 100%; width: 450px; height: auto; display: block; margin: 0 auto;" />
-    <figcaption style="max-width: 450px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;"> FS301 SLUSHi machine</figcaption>
+    <img src="{{ '/experience/sharkninja/FS701.jpg' | relative_url }}" alt="FS701 dual-vessel SLUSHi machine" style="max-width: 100%; width: 450px; height: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 450px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">FS701 SLUSHi machine</figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center;">
+  <figure style="margin: 12px auto; width: fit-content; text-align: center;">
+    <img src="{{ '/experience/sharkninja/Slush%20Assist.webp' | relative_url }}" alt="Dual SlushAssist technology" style="max-width: 100%; width: 450px; height: auto; display: block; margin: 0 auto;" />
+    <figcaption style="max-width: 450px; text-align: center; font-size: 0.95em; color: #666; margin: 6px auto 0;">SlushAssist™ technology</figcaption>
   </figure>
 </div>
 
