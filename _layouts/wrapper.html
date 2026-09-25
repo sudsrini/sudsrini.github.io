@@ -17,7 +17,8 @@
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 
     
-    <title>{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
     
 
 </head>

@@ -13,11 +13,10 @@ title: Sudarsan Srinivasan's Portfolio # This is what shows up in the tab of the
 
 # Hero Section
 name: Sudarsan Srinivasan
-headline: Mechanical Engineer | Bridging design, manufacturing, and validation
+headline: Mechanical Engineer | Product Design & Development
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  
-  
-  
+  I design mechanical components, build prototypes, and work through the testing
+  and integration needed to turn a design into working hardware.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: assets/images/profile-image/SudarsanSrinivasan_old.jpg
@@ -170,6 +169,11 @@ plugins:
 
 include:
   - _projects
+
+exclude:
+  - assets/resume/SudarsanSrinivasan_Resume_old.pdf
+  - assets/resume/SudarsanSrinivasan_Resume_old (1).pdf
+  - assets/resume/SudarsanSrinivasan_Resume_old (2).pdf
 
 
 # Exclude from processing.

@@ -237,6 +237,7 @@ nav .mobile-nav a span:last-child:hover {
 nav .menu-toggle {
     display: none;
     background: none;
+    color: var(--text-color);
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -322,6 +323,8 @@ nav .mobile-nav {
 .hero-section .text p {
     margin-top: 15px;
     font-size: 15px;
+    line-height: 1.75;
+    max-width: 60ch;
     padding: 0px;
     color: var(--text-color);
 }
@@ -1247,3 +1250,46 @@ a, span, p, h1, h2, h3 {
     font-weight: 700;
 }
 
+
+
+/* Engineering case studies: readable detail and uncropped source imagery. */
+.case-study { max-width: 1040px; margin: 36px auto 72px; padding: 0 32px; color: var(--text-color); }
+.case-header { padding: 28px 0 36px; border-bottom: 1px solid var(--border-color); }
+.case-cover { display: block; width: 100%; height: auto; object-fit: contain; margin: 28px 0; border-radius: 8px; }
+.case-back, .case-nav a, .case-end a, .earlier-experience a { color: var(--link-color); }
+.case-eyebrow, .work-role { font-size: .85rem; margin: 24px 0 10px; }
+.case-header h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.15; margin: 12px 0 22px; }
+.case-intro { font-size: 1.12rem; line-height: 1.8; max-width: 78ch; }
+.case-skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; margin: 24px 0 0; }
+.case-skills li { padding: 7px 12px; border: 1px solid var(--border-color); border-radius: 6px; font-size: .82rem; }
+.case-body { line-height: 1.85; overflow-wrap: anywhere; }
+.case-body h2 { font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.35; margin: 60px 0 22px; padding-top: 16px; border-top: 1px solid var(--border-color); scroll-margin-top: 100px; }
+.case-body h3 { font-size: 1.05rem; margin: 30px 0 10px; }
+.case-body p { margin: 0 0 20px; max-width: 85ch; }
+.case-body ul { padding-left: 24px; margin: 20px 0 32px; max-width: 85ch; }
+.case-body li { padding-left: 6px; margin-bottom: 16px; }
+.case-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 24px 0 0; font-size: .9rem; }
+.case-figure { margin: 30px 0; min-width: 0; }
+.case-figure a { display: block; border-radius: 8px; background: var(--light-background-color); }
+.case-figure img { display: block; max-width: 100%; width: auto; height: auto; max-height: 520px; object-fit: contain; margin: auto; border-radius: 8px; }
+.case-figure figcaption { padding-top: 12px; font-size: .85rem; line-height: 1.6; }
+.case-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
+.case-context-secondary { max-width: 560px; margin: 0 auto; }
+.case-video-link { max-width: 680px; }
+.case-video-link img { width: 100%; }
+.case-video-action { display: block; padding: 16px 20px; color: var(--link-color); font-weight: 600; }
+.case-result { padding: 24px; border-left: 4px solid var(--link-color); background: var(--light-background-color); border-radius: 0 8px 8px 0; }
+.case-detail { border: 1px solid var(--border-color); padding: 20px; border-radius: 8px; margin: 28px 0; }
+.case-detail summary { cursor: pointer; font-weight: 600; }
+.case-detail p { margin: 18px 0 0; }
+.case-end { padding: 32px 0; margin-top: 40px; border-top: 1px solid var(--border-color); background: none; }
+.earlier-experience { padding: 24px; margin-top: 24px; }
+.earlier-experience a { display: inline-block; margin: 12px 28px 0 0; }
+#experience .project-card > img { object-fit: contain; }
+.case-study a:focus-visible, #experience a:focus-visible { outline: 3px solid var(--link-color); outline-offset: 5px; }
+@media (max-width: 640px) {
+  .case-study { padding: 0 20px; margin-top: 12px; }
+  .case-gallery { grid-template-columns: 1fr; gap: 0; }
+  .case-body h2 { margin-top: 40px; }
+  .case-figure img { max-height: 420px; }
+}
